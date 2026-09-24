@@ -1,6 +1,20 @@
 
 export type Profession = 'Engineering' | 'Design' | 'Product' | 'Community' | 'Research' | 'Founding' | 'Other';
 
+export type Topic =
+  | 'Tech'
+  | 'Finance'
+  | 'Media'
+  | 'Career'
+  | 'Entrepreneurship'
+  | 'Education'
+  | 'Health'
+  | 'IslamicFinance'
+  | 'Design'
+  | 'Research'
+  | 'Mentoring'
+  | 'Charity';
+
 export interface UserProfile {
   id: string;
   name?: string;
@@ -9,23 +23,27 @@ export interface UserProfile {
   city_region?: string;
   profession: Profession;
   bio?: string;
-  tags: string[];
+  tags: Topic[];
   contact_email?: string;
   contact_telegram?: string;
   is_matchable: boolean;
   avatar_url?: string;
 }
 
+export type MatchReason =
+  | { kind: 'tag'; value: Topic }
+  | { kind: 'profession'; value: Profession }
+  | { kind: 'country'; value: string };
+
 export interface MatchScore {
   profileId: string;
   score: number;
-  reason: string;
+  reason: MatchReason | null;
 }
 
 export enum OnboardingStep {
-  AUTH = 1,
-  PROFILE = 2,
+  IDENTITY = 1,
+  CRAFT = 2,
   INTERESTS = 3,
-  VISIBILITY = 4,
-  SUCCESS = 5
+  CONTACT = 4
 }

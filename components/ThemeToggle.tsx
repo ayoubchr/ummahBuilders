@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { useLang } from '../i18n/LanguageContext';
 
 interface ThemeToggleProps {
   theme: 'light' | 'dark';
@@ -7,11 +8,12 @@ interface ThemeToggleProps {
 }
 
 export const ThemeToggle: React.FC<ThemeToggleProps> = ({ theme, onToggle }) => {
+  const { t } = useLang();
   return (
     <button
       onClick={onToggle}
       className="p-2 rounded-xl bg-neutral-100 dark:bg-neutral-800 text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-all active:scale-95"
-      aria-label="Toggle Theme"
+      aria-label={t.common.toggleTheme}
     >
       {theme === 'light' ? (
         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -1,5 +1,5 @@
 
-import { UserProfile, Profession } from './types';
+import { UserProfile, Profession, Topic } from './types';
 
 export const PROFESSIONS: Profession[] = [
   'Engineering',
@@ -11,41 +11,46 @@ export const PROFESSIONS: Profession[] = [
   'Other'
 ];
 
-export const TOPIC_SUGGESTIONS = [
-  'Privacy Tech',
-  'Ethical AI',
-  'Islamic Finance',
-  'Community Platforms',
-  'Halal Supply Chain',
-  'Open Source',
-  'Web3',
+export const TOPICS: Topic[] = [
+  'Tech',
+  'Finance',
+  'Media',
+  'Career',
+  'Entrepreneurship',
   'Education',
-  'Mental Health',
-  'Cybersecurity'
+  'Health',
+  'IslamicFinance',
+  'Design',
+  'Research',
+  'Mentoring',
+  'Charity'
 ];
 
+// Placeholder members until there is a backend.
 export const MOCK_USERS: UserProfile[] = [
   {
     id: '1',
     name: 'Ahmed K.',
     alias: 'ak_builder',
-    country: 'Turkey',
-    city_region: 'Istanbul',
+    country: 'België',
+    city_region: 'Antwerpen',
     profession: 'Engineering',
-    bio: 'Building privacy-first tools for the ummah. Excited about peer-to-peer systems.',
-    tags: ['Privacy Tech', 'Open Source', 'Engineering'],
+    bio: 'Software engineer. Wil graag jongeren helpen die de stap naar IT willen zetten.',
+    tags: ['Tech', 'Mentoring', 'Career'],
+    contact_email: 'ahmed@example.com',
     is_matchable: true,
     avatar_url: 'https://picsum.photos/seed/ahmed/200'
   },
   {
     id: '2',
     name: 'Sara M.',
-    alias: 'design_ummah',
-    country: 'United Kingdom',
-    city_region: 'London',
+    alias: 'sara_design',
+    country: 'Nederland',
+    city_region: 'Rotterdam',
     profession: 'Design',
-    bio: 'UI/UX Designer focused on creating inclusive and respectful digital spaces.',
-    tags: ['Design', 'Ethical AI', 'Community Platforms'],
+    bio: 'UX-designer. Bezig met toegankelijke en respectvolle digitale ruimtes.',
+    tags: ['Design', 'Media', 'Education'],
+    contact_telegram: '@sara_design',
     is_matchable: true,
     avatar_url: 'https://picsum.photos/seed/sara/200'
   },
@@ -53,23 +58,24 @@ export const MOCK_USERS: UserProfile[] = [
     id: '3',
     name: 'Omar J.',
     alias: 'omar_j',
-    country: 'United Arab Emirates',
-    city_region: 'Dubai',
-    profession: 'Product',
-    bio: 'Scaling fintech products that align with Islamic principles.',
-    tags: ['Islamic Finance', 'Product', 'Ethical AI'],
+    country: 'België',
+    city_region: 'Brussel',
+    profession: 'Founding',
+    bio: 'Ondernemer met een achtergrond in finance. Interesse in halal financiering en crowdfunding.',
+    tags: ['IslamicFinance', 'Entrepreneurship', 'Finance'],
+    contact_email: 'omar@example.com',
     is_matchable: true,
     avatar_url: 'https://picsum.photos/seed/omar/200'
   },
   {
     id: '4',
     name: 'Fatima Z.',
-    alias: 'fa_research',
-    country: 'Malaysia',
-    city_region: 'Kuala Lumpur',
+    alias: 'fatima_z',
+    country: 'Nederland',
+    city_region: 'Utrecht',
     profession: 'Research',
-    bio: 'Social researcher studying the impact of digital bias on minority communities.',
-    tags: ['Education', 'Research', 'Community Platforms'],
+    bio: 'Onderzoeker in de sociale wetenschappen. Wil problemen binnen de ummah onderzoeken en oplossingen publiceren.',
+    tags: ['Research', 'Education', 'Charity'],
     is_matchable: true,
     avatar_url: 'https://picsum.photos/seed/fatima/200'
   }

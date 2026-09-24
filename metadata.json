@@ -1,8 +1,6 @@
 {
   "name": "Ummah Builders",
-  "description": "A minimalist, glassy platform for Muslim builders and allies to connect, collaborate, and build the next layer of infrastructure for a better world.",
-  "requestFramePermissions": [
-    "camera"
-  ],
+  "description": "Een eerlijk professioneel netwerk voor de ummah: leren, bouwen en elkaar vooruithelpen. / An honest professional network for the ummah.",
+  "requestFramePermissions": [],
   "majorCapabilities": []
 }

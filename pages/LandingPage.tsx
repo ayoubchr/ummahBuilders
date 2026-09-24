@@ -1,148 +1,111 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GlassPanel } from '../components/GlassPanel';
 import { Logo } from '../components/Logo';
+import { useLang } from '../i18n/LanguageContext';
 
 export const LandingPage: React.FC = () => {
+  const { t } = useLang();
+  const l = t.landing;
+
   return (
-    <div className="min-h-screen bg-white overflow-hidden pt-16">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 space-y-32">
-        {/* Hero Section */}
-        <section className="relative pt-24 pb-16 flex flex-col lg:flex-row items-center gap-16">
-          <div className="absolute top-0 left-0 w-[1000px] h-[1000px] bg-teal-500/5 blur-[150px] rounded-full -translate-x-1/2 -translate-y-1/2" />
-          
-          <div className="flex-1 space-y-10 relative z-10">
-            <div className="inline-flex items-center gap-3 px-3 py-1 bg-neutral-900 text-white rounded-full text-[10px] font-bold tracking-[0.2em] uppercase">
+    <div className="h-full overflow-y-auto bg-white dark:bg-[#0a0a0a] transition-colors duration-200">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 space-y-24 lg:space-y-32 overflow-hidden">
+        {/* Hero */}
+        <section className="relative pt-16 lg:pt-24 pb-8 flex flex-col lg:flex-row items-center gap-16">
+          <div className="absolute top-0 left-0 w-[1000px] h-[1000px] bg-teal-500/5 blur-[150px] rounded-full -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+
+          <div className="flex-1 space-y-8 lg:space-y-10 relative z-10">
+            <div className="inline-flex items-center gap-3 px-3 py-1 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 rounded-full text-[10px] font-bold tracking-[0.2em] uppercase">
               <span className="w-1.5 h-1.5 bg-teal-400 rounded-full animate-pulse" />
-              Now Open for Infrastructure Partners
+              {l.badge}
             </div>
-            <h1 className="text-6xl md:text-8xl font-light tracking-tighter text-neutral-900 leading-[0.95]">
-              Architecting the <br />
-              <span className="text-teal-600 font-serif italic">Independent</span> <br />
-              Future.
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tighter text-neutral-900 dark:text-white leading-[0.95]">
+              {l.titleA} <br />
+              <span className="text-teal-600 font-serif italic">{l.titleB}</span> <br />
+              {l.titleC}
             </h1>
-            <p className="max-w-xl text-xl text-neutral-500 font-light leading-relaxed">
-              The world’s infrastructure sidelining the Ummah ends here. Connect with top-tier engineers, designers, and visionaries to build tools that are resilient, ethical, and built for us.
+            <p className="max-w-xl text-lg lg:text-xl text-neutral-500 dark:text-neutral-400 font-light leading-relaxed">
+              {l.intro}
             </p>
-            <div className="flex flex-col sm:flex-row gap-5 items-start">
-              <Link 
-                to="/onboarding" 
-                className="px-10 py-5 bg-neutral-900 text-white rounded-2xl text-[12px] font-bold tracking-widest hover:bg-neutral-800 transition-all hover:-translate-y-1 active:scale-95 shadow-2xl shadow-neutral-200 uppercase"
+            <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-start">
+              <Link
+                to="/onboarding"
+                className="px-10 py-5 text-center bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 rounded-2xl text-[12px] font-bold tracking-widest hover:opacity-90 transition-all hover:-translate-y-1 active:scale-95 uppercase"
               >
-                Join the Network
+                {l.ctaJoin}
               </Link>
-              <Link 
-                to="/about" 
-                className="px-10 py-5 bg-white border border-neutral-200 text-neutral-600 rounded-2xl text-[12px] font-bold tracking-widest hover:border-neutral-900 hover:text-neutral-900 transition-all uppercase"
+              <Link
+                to="/community/manifesto"
+                className="px-10 py-5 text-center bg-white dark:bg-transparent border border-neutral-200 dark:border-neutral-700 text-neutral-600 dark:text-neutral-300 rounded-2xl text-[12px] font-bold tracking-widest hover:border-neutral-900 dark:hover:border-white hover:text-neutral-900 dark:hover:text-white transition-all uppercase"
               >
-                Read the Manifesto
+                {l.ctaManifesto}
               </Link>
-            </div>
-            <div className="flex items-center gap-6 pt-6">
-              <div className="flex -space-x-3">
-                {[1,2,3,4,5].map(i => <img key={i} src={`https://picsum.photos/seed/${i*20}/100`} className="w-10 h-10 rounded-full border-4 border-white shadow-sm" alt=""/>)}
-              </div>
-              <p className="text-[11px] font-bold text-neutral-400 tracking-widest uppercase">Trusted by 2.4k Builders Worldwide</p>
             </div>
           </div>
 
           <div className="flex-1 w-full lg:w-auto relative hidden lg:block">
-             <div className="absolute inset-0 bg-neutral-50 rounded-[4rem] -rotate-6 scale-105" />
-             <div className="relative bg-white p-8 rounded-[4rem] border border-neutral-100 shadow-2xl space-y-8">
-                <div className="flex items-center justify-between border-b border-neutral-50 pb-6">
-                   <div className="flex gap-2">
-                     <div className="w-3 h-3 rounded-full bg-red-400" />
-                     <div className="w-3 h-3 rounded-full bg-amber-400" />
-                     <div className="w-3 h-3 rounded-full bg-teal-400" />
-                   </div>
-                   <span className="text-[10px] font-bold text-neutral-300 tracking-widest uppercase">System Dashboard v1.0</span>
+            <div className="absolute inset-0 bg-neutral-50 dark:bg-neutral-900 rounded-[4rem] -rotate-6 scale-105" />
+            <div className="relative bg-white dark:bg-[#121212] p-10 rounded-[4rem] border border-neutral-100 dark:border-neutral-800 shadow-2xl space-y-6">
+              <p className="text-[10px] font-bold text-neutral-400 tracking-widest uppercase">{l.principlesTitle}</p>
+              {l.principles.map(p => (
+                <div key={p} className="flex items-center gap-4 bg-neutral-50 dark:bg-neutral-900 p-4 rounded-2xl border border-neutral-100 dark:border-neutral-800">
+                  <span className="w-8 h-8 shrink-0 rounded-xl bg-teal-50 dark:bg-teal-900/30 text-teal-600 flex items-center justify-center">
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                    </svg>
+                  </span>
+                  <span className="text-sm font-medium text-neutral-800 dark:text-neutral-200">{p}</span>
                 </div>
-                <div className="space-y-6">
-                  {[
-                    { label: 'Privacy Protocol', value: 'Active', color: 'text-teal-600' },
-                    { label: 'Peer Matching', value: 'High Accuracy', color: 'text-teal-600' },
-                    { label: 'Infrastructure Nodes', value: '412 Connected', color: 'text-neutral-400' }
-                  ].map(stat => (
-                    <div key={stat.label} className="flex justify-between items-center bg-neutral-50 p-4 rounded-2xl border border-neutral-100/50">
-                       <span className="text-sm font-medium text-neutral-800">{stat.label}</span>
-                       <span className={`text-[10px] font-bold tracking-widest uppercase ${stat.color}`}>{stat.value}</span>
-                    </div>
-                  ))}
-                </div>
-                <div className="p-6 bg-neutral-900 rounded-3xl space-y-4">
-                   <div className="flex gap-3">
-                     <div className="w-10 h-10 rounded-xl bg-neutral-800 flex items-center justify-center text-teal-400">م</div>
-                     <div>
-                       <p className="text-white text-xs font-bold">Resilient Node Found</p>
-                       <p className="text-neutral-500 text-[10px]">Istanbul Corridor Connected</p>
-                     </div>
-                   </div>
-                </div>
-             </div>
+              ))}
+            </div>
           </div>
         </section>
 
-        {/* Commitment & Values */}
-        <section className="space-y-20 py-20">
+        {/* Pillars */}
+        <section className="space-y-16">
           <div className="text-center space-y-6 max-w-2xl mx-auto">
-             <h2 className="text-[11px] font-bold text-teal-600 tracking-[0.3em] uppercase">Our Sovereign Commitment</h2>
-             <h3 className="text-4xl font-light text-neutral-900 leading-tight">We build for resilience, not reaction. Our infrastructure is sovereign, ethical, and privacy-first.</h3>
+            <h2 className="text-[11px] font-bold text-teal-600 tracking-[0.3em] uppercase">{l.pillarsLabel}</h2>
+            <h3 className="text-3xl lg:text-4xl font-light text-neutral-900 dark:text-white leading-tight">{l.pillarsTitle}</h3>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-12">
-            {[
-              {
-                title: "Decentralized Growth",
-                desc: "We don't rely on central authorities that can de-bank or de-platform us. We build our own rails."
-              },
-              {
-                title: "Domain Excellence",
-                desc: "Matching happens through skill and vision. We connect world-class engineers with meaningful problems."
-              },
-              {
-                title: "Ethical Alignment",
-                desc: "Every tool built through our network is vetted for alignment with universal Islamic ethical principles."
-              }
-            ].map((v, i) => (
-              <div key={i} className="space-y-6 group">
-                <div className="w-12 h-12 rounded-2xl bg-neutral-50 border border-neutral-100 flex items-center justify-center text-neutral-400 group-hover:bg-teal-600 group-hover:text-white transition-all duration-500">
-                   <span className="text-lg font-bold italic">0{i+1}</span>
+            {l.pillars.map((v, i) => (
+              <div key={v.title} className="space-y-5 group">
+                <div className="w-12 h-12 rounded-2xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-100 dark:border-neutral-800 flex items-center justify-center text-neutral-400 group-hover:bg-teal-600 group-hover:text-white transition-all duration-500">
+                  <span className="text-lg font-bold italic">0{i + 1}</span>
                 </div>
-                <h4 className="text-xl font-medium text-neutral-900">{v.title}</h4>
-                <p className="text-neutral-500 font-light leading-relaxed">{v.desc}</p>
+                <h4 className="text-xl font-medium text-neutral-900 dark:text-white">{v.title}</h4>
+                <p className="text-neutral-500 dark:text-neutral-400 font-light leading-relaxed">{v.desc}</p>
               </div>
             ))}
           </div>
         </section>
 
         {/* Final CTA */}
-        <section className="py-32 relative text-center">
-           <div className="absolute inset-0 bg-neutral-900 rounded-[5rem] overflow-hidden">
-             <div className="absolute inset-0 opacity-20 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
-             <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-teal-600/20 blur-[150px] rounded-full translate-x-1/2 translate-y-1/2" />
-           </div>
-           <div className="relative z-10 space-y-10 py-20 px-6">
-              <h2 className="text-4xl md:text-6xl font-light text-white leading-tight">
-                The Ummah is building.<br />
-                <span className="text-teal-400 font-serif italic">Will you architect with us?</span>
-              </h2>
-              <Link 
-                to="/onboarding" 
-                className="inline-block px-12 py-6 bg-white text-neutral-900 rounded-3xl text-[14px] font-bold tracking-[0.2em] hover:scale-105 active:scale-95 transition-all uppercase shadow-2xl shadow-teal-900/20"
-              >
-                Access the Node
-              </Link>
-              <div className="pt-10 flex flex-col items-center gap-4">
-                 <Logo size="sm" />
-                 <p className="text-neutral-500 text-[10px] tracking-widest uppercase">&copy; 1445 — Ummah Builders Network</p>
-              </div>
-           </div>
+        <section className="py-20 lg:py-32 relative text-center">
+          <div className="absolute inset-0 bg-neutral-900 rounded-[3rem] lg:rounded-[5rem] overflow-hidden">
+            <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-teal-600/20 blur-[150px] rounded-full translate-x-1/2 translate-y-1/2" />
+          </div>
+          <div className="relative z-10 space-y-10 py-10 px-6">
+            <h2 className="text-3xl md:text-6xl font-light text-white leading-tight">
+              {l.ctaTitleA}<br />
+              <span className="text-teal-400 font-serif italic">{l.ctaTitleB}</span>
+            </h2>
+            <Link
+              to="/onboarding"
+              className="inline-block px-10 py-5 bg-white text-neutral-900 rounded-3xl text-[13px] font-bold tracking-[0.2em] hover:scale-105 active:scale-95 transition-all uppercase"
+            >
+              {l.ctaButton}
+            </Link>
+            <div className="pt-8 flex flex-col items-center gap-4">
+              <Logo size="sm" inverted />
+              <p className="text-neutral-500 text-[10px] tracking-widest uppercase">&copy; {new Date().getFullYear()} — {l.footer}</p>
+            </div>
+          </div>
         </section>
       </div>
-      
-      {/* Footer Gutter */}
-      <footer className="h-20" />
+      <footer className="h-12" />
     </div>
   );
 };
