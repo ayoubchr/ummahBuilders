@@ -8,6 +8,8 @@ import { Network } from './pages/Network';
 import { Projects } from './pages/Projects';
 import { Settings } from './pages/Settings';
 import { Profile } from './pages/Profile';
+import { Knowledge } from './pages/Knowledge';
+import { Events } from './pages/Events';
 import { Roadmap } from './pages/community/Roadmap';
 import { Manifesto } from './pages/community/Manifesto';
 import { Support } from './pages/community/Support';
@@ -187,6 +189,8 @@ const App: React.FC = () => {
               <Route path="/projects" element={requireUser(<Projects />)} />
               <Route path="/settings" element={requireUser(<Settings user={currentUser!} onUpdate={saveProfile} theme={theme} onSetTheme={setTheme} />)} />
               <Route path="/profile" element={requireUser(<Profile user={currentUser!} />)} />
+              <Route path="/knowledge" element={requireUser(<Knowledge currentUser={currentUser!} />)} />
+              <Route path="/events" element={requireUser(<Events currentUser={currentUser!} />)} />
               <Route path="/community/roadmap" element={<Roadmap />} />
               <Route path="/community/manifesto" element={<Manifesto isMember={!!currentUser} />} />
               <Route path="/community/support" element={<Support />} />

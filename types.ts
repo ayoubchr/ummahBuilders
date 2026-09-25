@@ -47,3 +47,31 @@ export enum OnboardingStep {
   INTERESTS = 3,
   CONTACT = 4
 }
+
+export type ResourceKind = 'link' | 'document' | 'summary';
+
+export interface Resource {
+  id: string;
+  title: string;
+  kind: ResourceKind;
+  url?: string;
+  description?: string;
+  topic: Topic;
+  authorId: string;
+  authorName: string;
+  createdAt: string; // ISO date
+}
+
+export type EventKind = 'talk' | 'hackathon' | 'sharktank' | 'meetup';
+
+export interface CommunityEvent {
+  id: string;
+  title: string;
+  kind: EventKind;
+  date: string; // ISO datetime from <input type="datetime-local">
+  location: string;
+  description?: string;
+  organizerId: string;
+  organizerName: string;
+  attendeeIds: string[];
+}
