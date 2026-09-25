@@ -1,9 +1,8 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useLang } from '../../i18n/LanguageContext';
 
-export const Manifesto: React.FC<{ isMember: boolean }> = ({ isMember }) => {
+export const Manifesto: React.FC = () => {
   const { t } = useLang();
   const m = t.manifesto;
 
@@ -26,17 +25,6 @@ export const Manifesto: React.FC<{ isMember: boolean }> = ({ isMember }) => {
           ))}
         </div>
 
-        {!isMember && (
-          <footer className="pt-12 border-t border-neutral-100 dark:border-neutral-800 text-center space-y-6">
-            <p className="text-sm text-neutral-400 uppercase tracking-widest font-bold">{m.cta}</p>
-            <Link
-              to="/onboarding"
-              className="inline-block px-8 py-4 bg-neutral-900 dark:bg-white text-white dark:text-neutral-900 rounded-2xl text-[12px] font-bold tracking-widest uppercase hover:opacity-90 transition-all"
-            >
-              {t.landing.ctaJoin}
-            </Link>
-          </footer>
-        )}
       </div>
     </div>
   );

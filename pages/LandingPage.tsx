@@ -36,10 +36,10 @@ export const LandingPage: React.FC = () => {
                 {l.ctaJoin}
               </Link>
               <Link
-                to="/community/manifesto"
+                to="/login"
                 className="px-10 py-5 text-center bg-white dark:bg-transparent border border-neutral-200 dark:border-neutral-700 text-neutral-600 dark:text-neutral-300 rounded-2xl text-[12px] font-bold tracking-widest hover:border-neutral-900 dark:hover:border-white hover:text-neutral-900 dark:hover:text-white transition-all uppercase"
               >
-                {l.ctaManifesto}
+                {t.common.login}
               </Link>
             </div>
           </div>

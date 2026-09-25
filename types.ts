@@ -42,10 +42,11 @@ export interface MatchScore {
 }
 
 export enum OnboardingStep {
-  IDENTITY = 1,
-  CRAFT = 2,
-  INTERESTS = 3,
-  CONTACT = 4
+  ACCOUNT = 1,
+  IDENTITY = 2,
+  CRAFT = 3,
+  INTERESTS = 4,
+  CONTACT = 5
 }
 
 export type ResourceKind = 'link' | 'document' | 'summary';

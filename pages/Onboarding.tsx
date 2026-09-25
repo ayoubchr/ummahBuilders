@@ -1,17 +1,22 @@
 
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { OnboardingStep, Profession, Topic, UserProfile } from '../types';
 import { PROFESSIONS, TOPICS } from '../constants.tsx';
 import { Logo } from '../components/Logo';
 import { useLang } from '../i18n/LanguageContext';
+import { AuthError, isEmailTaken } from '../services/auth';
 
-const STEP_COUNT = 4;
+const STEP_COUNT = 5;
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }> = ({ onComplete }) => {
+export const Onboarding: React.FC<{ onComplete: (email: string, password: string, profile: UserProfile) => Promise<AuthError | null> }> = ({ onComplete }) => {
   const { t } = useLang();
   const o = t.onboarding;
-  const [step, setStep] = useState<OnboardingStep>(OnboardingStep.IDENTITY);
+  const a = t.auth;
+  const [step, setStep] = useState<OnboardingStep>(OnboardingStep.ACCOUNT);
+  const [account, setAccount] = useState({ email: '', password: '', repeat: '' });
+  const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [formData, setFormData] = useState<Partial<UserProfile>>({
     profession: 'Engineering',
@@ -23,7 +28,24 @@ export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }
 
   const update = (patch: Partial<UserProfile>) => setFormData(prev => ({ ...prev, ...patch }));
 
+  const validateAccount = (): string | null => {
+    if (!EMAIL_RE.test(account.email.trim())) return a.emailInvalid;
+    if (isEmailTaken(account.email)) return a.emailTaken;
+    if (account.password.length < 8) return a.passwordTooShort;
+    if (account.password !== account.repeat) return a.passwordMismatch;
+    return null;
+  };
+
   const nextStep = () => {
+    if (submitting) return;
+    if (step === OnboardingStep.ACCOUNT) {
+      const accountError = validateAccount();
+      if (accountError) {
+        setError(accountError);
+        return;
+      }
+      if (!formData.contact_email) update({ contact_email: account.email.trim() });
+    }
     if (step === OnboardingStep.IDENTITY && !formData.name?.trim()) {
       setError(o.nameRequired);
       return;
@@ -47,7 +69,7 @@ export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }
     }));
   };
 
-  const handleFinish = () => {
+  const handleFinish = async () => {
     const name = formData.name!.trim();
     const finalProfile: UserProfile = {
       id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 9)}`,
@@ -63,7 +85,14 @@ export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }
       is_matchable: formData.is_matchable ?? true,
       avatar_url: `https://picsum.photos/seed/${encodeURIComponent(name)}/400`
     };
-    onComplete(finalProfile);
+    setSubmitting(true);
+    const result = await onComplete(account.email, account.password, finalProfile);
+    setSubmitting(false);
+    if (result) {
+      setError(a[result]);
+      setStep(OnboardingStep.ACCOUNT);
+      return;
+    }
     navigate('/matches');
   };
 
@@ -114,6 +143,28 @@ export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }
           </header>
 
           <main className="space-y-6 min-h-[300px]">
+            {step === OnboardingStep.ACCOUNT && (
+              <div className="space-y-6 animate-in">
+                <div className="space-y-2">
+                  <label htmlFor="ob-acc-email" className={labelClasses}>{a.email}</label>
+                  <input id="ob-acc-email" type="email" autoComplete="email" value={account.email} onChange={e => setAccount({ ...account, email: e.target.value })} className={inputClasses} placeholder={o.emailPlaceholder} autoFocus />
+                </div>
+                <div className="space-y-2">
+                  <label htmlFor="ob-acc-pw" className={labelClasses}>{a.password}</label>
+                  <input id="ob-acc-pw" type="password" autoComplete="new-password" value={account.password} onChange={e => setAccount({ ...account, password: e.target.value })} className={inputClasses} />
+                </div>
+                <div className="space-y-2">
+                  <label htmlFor="ob-acc-pw2" className={labelClasses}>{a.passwordRepeat}</label>
+                  <input id="ob-acc-pw2" type="password" autoComplete="new-password" value={account.repeat} onChange={e => setAccount({ ...account, repeat: e.target.value })} className={inputClasses} />
+                </div>
+                {error && <p className="text-xs text-red-500">{error}</p>}
+                <p className="text-sm text-neutral-500">
+                  {a.haveAccount}{' '}
+                  <Link to="/login" className="text-teal-600 hover:underline font-medium">{a.submit}</Link>
+                </p>
+              </div>
+            )}
+
             {step === OnboardingStep.IDENTITY && (
               <div className="space-y-6 animate-in">
                 <div className="space-y-2">
@@ -217,10 +268,10 @@ export const Onboarding: React.FC<{ onComplete: (profile: UserProfile) => void }
           </main>
 
           <footer className="pt-2 flex gap-4">
-            {step > OnboardingStep.IDENTITY && (
+            {step > OnboardingStep.ACCOUNT && (
               <button
                 type="button"
-                onClick={prevStep}
+                onClick={() => { setError(''); prevStep(); }}
                 className="px-6 lg:px-8 py-4 border border-neutral-200 dark:border-neutral-800 rounded-2xl text-[11px] font-bold tracking-widest text-neutral-400 hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-all uppercase"
               >
                 {t.common.back}

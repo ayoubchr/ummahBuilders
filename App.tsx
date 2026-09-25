@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
 import { LandingPage } from './pages/LandingPage';
 import { Onboarding } from './pages/Onboarding';
 import { Dashboard } from './pages/Dashboard';
@@ -8,6 +8,7 @@ import { Network } from './pages/Network';
 import { Projects } from './pages/Projects';
 import { Settings } from './pages/Settings';
 import { Profile } from './pages/Profile';
+import { Login } from './pages/Login';
 import { Knowledge } from './pages/Knowledge';
 import { Events } from './pages/Events';
 import { Roadmap } from './pages/community/Roadmap';
@@ -20,19 +21,21 @@ import { PublicNav } from './components/PublicNav';
 import { UserProfile } from './types';
 import { useLang } from './i18n/LanguageContext';
 import { TOPICS } from './constants';
+import * as auth from './services/auth';
 
 type Theme = 'light' | 'dark';
 
-const readStoredProfile = (): UserProfile | null => {
-  try {
-    const stored = localStorage.getItem('ub_user_profile');
-    if (!stored) return null;
-    const profile: UserProfile = JSON.parse(stored);
-    // Drop tags from older versions that are no longer known topics.
-    return { ...profile, tags: (profile.tags || []).filter(tag => TOPICS.includes(tag)) };
-  } catch {
-    return null;
-  }
+const readSessionUser = (): UserProfile | null => {
+  const profile = auth.getSessionUser();
+  if (!profile) return null;
+  // Drop tags from older versions that are no longer known topics.
+  return { ...profile, tags: (profile.tags || []).filter(tag => TOPICS.includes(tag)) };
+};
+
+// Sends visitors without a session to the login page, remembering where they wanted to go.
+const RequireAuth: React.FC<{ user: UserProfile | null; children: React.ReactElement }> = ({ user, children }) => {
+  const location = useLocation();
+  return user ? children : <Navigate to="/login" replace state={{ from: location.pathname }} />;
 };
 
 const readStoredTheme = (): Theme => {
@@ -120,7 +123,7 @@ const UserMenu: React.FC<{ user: UserProfile; onLogout: () => void; theme: Theme
 };
 
 const App: React.FC = () => {
-  const [currentUser, setCurrentUser] = useState<UserProfile | null>(readStoredProfile);
+  const [currentUser, setCurrentUser] = useState<UserProfile | null>(readSessionUser);
   const [theme, setTheme] = useState<Theme>(readStoredTheme);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -133,22 +136,31 @@ const App: React.FC = () => {
 
   const saveProfile = (profile: UserProfile) => {
     setCurrentUser(profile);
-    try {
-      localStorage.setItem('ub_user_profile', JSON.stringify(profile));
-    } catch {}
+    auth.saveSessionProfile(profile);
+  };
+
+  const handleRegister = async (email: string, password: string, profile: UserProfile) => {
+    const error = await auth.register(email, password, profile);
+    if (!error) setCurrentUser(profile);
+    return error;
+  };
+
+  const handleLogin = async (email: string, password: string) => {
+    const result = await auth.login(email, password);
+    if (typeof result === 'string') return false;
+    setCurrentUser(result);
+    return true;
   };
 
   const handleLogout = () => {
-    setCurrentUser(null);
-    try {
-      localStorage.removeItem('ub_user_profile');
-    } catch {}
-    setIsSidebarOpen(false);
+    auth.logout();
+    // Full reload to the landing page so no member state lingers in memory.
+    window.location.assign('/');
   };
 
   const toggleTheme = () => setTheme(prev => prev === 'light' ? 'dark' : 'light');
 
-  const requireUser = (element: React.ReactElement) => currentUser ? element : <Navigate to="/onboarding" replace />;
+  const requireUser = (element: React.ReactElement) => <RequireAuth user={currentUser}>{element}</RequireAuth>;
 
   return (
     <Router>
@@ -181,8 +193,12 @@ const App: React.FC = () => {
             <Routes>
               <Route path="/" element={currentUser ? <Navigate to="/matches" replace /> : <LandingPage />} />
               <Route
+                path="/login"
+                element={currentUser ? <Navigate to="/matches" replace /> : <Login onLogin={handleLogin} />}
+              />
+              <Route
                 path="/onboarding"
-                element={currentUser ? <Navigate to="/matches" replace /> : <Onboarding onComplete={saveProfile} />}
+                element={currentUser ? <Navigate to="/matches" replace /> : <Onboarding onComplete={handleRegister} />}
               />
               <Route path="/matches" element={requireUser(<Dashboard currentUser={currentUser!} />)} />
               <Route path="/network" element={requireUser(<Network currentUser={currentUser!} />)} />
@@ -191,9 +207,9 @@ const App: React.FC = () => {
               <Route path="/profile" element={requireUser(<Profile user={currentUser!} />)} />
               <Route path="/knowledge" element={requireUser(<Knowledge currentUser={currentUser!} />)} />
               <Route path="/events" element={requireUser(<Events currentUser={currentUser!} />)} />
-              <Route path="/community/roadmap" element={<Roadmap />} />
-              <Route path="/community/manifesto" element={<Manifesto isMember={!!currentUser} />} />
-              <Route path="/community/support" element={<Support />} />
+              <Route path="/community/roadmap" element={requireUser(<Roadmap />)} />
+              <Route path="/community/manifesto" element={requireUser(<Manifesto />)} />
+              <Route path="/community/support" element={requireUser(<Support />)} />
               <Route path="/about" element={<Navigate to="/community/manifesto" replace />} />
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
