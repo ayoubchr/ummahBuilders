@@ -4,20 +4,20 @@
  "type": "page",
  "content": [
   {
-   "id": "5253b26",
+   "id": "1824003",
    "elType": "section",
    "settings": {
     "gap": "default",
     "css_classes": "ub-section ub-bg-cream",
     "content_width": {
      "unit": "px",
-     "size": 1140,
+     "size": 760,
      "sizes": []
     }
    },
    "elements": [
     {
-     "id": "e832a88",
+     "id": "89ea476",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -25,7 +25,7 @@
      },
      "elements": [
       {
-       "id": "79d1a3f",
+       "id": "ccb40aa",
        "elType": "widget",
        "settings": {
         "title": "Eerste versie — samen verder uit te werken",
@@ -37,7 +37,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "0ac1423",
+       "id": "ab5f398",
        "elType": "widget",
        "settings": {
         "title": "Het Ummah Builders <em>manifest</em>",
@@ -49,7 +49,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "747a7d2",
+       "id": "135ca10",
        "elType": "widget",
        "settings": {
         "space": {
@@ -62,7 +62,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "e8508d1",
+       "id": "7daeb1d",
        "elType": "widget",
        "settings": {
         "editor": "<p>We willen een sterk en eerlijk professioneel netwerk bouwen voor de ummah: een plek waar mensen samenkomen om te leren, te bouwen en elkaar vooruit te helpen.</p>",
@@ -72,7 +72,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "1a7f3b0",
+       "id": "74a97d5",
        "elType": "widget",
        "settings": {
         "space": {
@@ -85,7 +85,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "d5837fe",
+       "id": "712a8cc",
        "elType": "widget",
        "settings": {
         "title": "I. Binnen islamitische grenzen",
@@ -96,7 +96,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "940b9e8",
+       "id": "74ddaf7",
        "elType": "widget",
        "settings": {
         "editor": "<p>Alles wat we doen gebeurt binnen duidelijke islamitische grenzen: in hoe we omgaan met elkaar, met geld en met data.</p>"
@@ -105,7 +105,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "f749d43",
+       "id": "c6d1720",
        "elType": "widget",
        "settings": {
         "space": {
@@ -118,7 +118,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "57381aa",
+       "id": "a28aa2f",
        "elType": "widget",
        "settings": {
         "title": "II. Kwaliteit en kennis",
@@ -129,7 +129,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "fce93f9",
+       "id": "af03695",
        "elType": "widget",
        "settings": {
         "editor": "<p>We kiezen voor inhoud boven lawaai. Gestructureerde gesprekken, een gedeelde kennisbank en mentoring door ervaren professionals.</p>"
@@ -138,7 +138,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "65af02d",
+       "id": "533c7a4",
        "elType": "widget",
        "settings": {
         "space": {
@@ -151,7 +151,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "dba645d",
+       "id": "d8130de",
        "elType": "widget",
        "settings": {
         "title": "III. Echte impact",
@@ -162,7 +162,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "1747978",
+       "id": "395ac34",
        "elType": "widget",
        "settings": {
         "editor": "<p>Talent binnen de ummah is groot maar verspreid. Via projectgroepen, hackathons en sharktank-sessies zetten we ideeën om in werkende projecten.</p>"
@@ -171,7 +171,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "3295976",
+       "id": "9236494",
        "elType": "widget",
        "settings": {
         "space": {
@@ -184,7 +184,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "d7f8361",
+       "id": "320859b",
        "elType": "widget",
        "settings": {
         "title": "IV. Een voorbeeld voor de jeugd",
@@ -195,7 +195,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "2e8650b",
+       "id": "f68f6e2",
        "elType": "widget",
        "settings": {
         "editor": "<p>We willen positieve rolmodellen zijn, zodat jongeren niet afhankelijk zijn van verkeerde voorbeelden. Leden delen hun carrièreladder zodat anderen zien wat mogelijk is.</p>"
@@ -204,7 +204,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "553a465",
+       "id": "48c334e",
        "elType": "widget",
        "settings": {
         "space": {
@@ -217,7 +217,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "bdab54a",
+       "id": "6f8619c",
        "elType": "widget",
        "settings": {
         "title": "V. Wat we niet doen",
@@ -228,7 +228,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "704ca16",
+       "id": "7de5dd9",
        "elType": "widget",
        "settings": {
         "editor": "<p>Geen verslavend algoritme, geen DM-cultuur en geen misbruik van data. Geld dat door de community gaat, wordt transparant gerapporteerd.</p>"
@@ -237,7 +237,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "eee942b",
+       "id": "5cee400",
        "elType": "widget",
        "settings": {
         "space": {
@@ -250,7 +250,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "ac2d893",
+       "id": "b6f7d51",
        "elType": "widget",
        "settings": {
         "space": {
@@ -263,7 +263,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "d9e6584",
+       "id": "dd0f7e5",
        "elType": "widget",
        "settings": {
         "text": "Word lid",

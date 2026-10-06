@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "a0e7986",
+   "id": "3422bad",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -17,7 +17,7 @@
    },
    "elements": [
     {
-     "id": "cad8167",
+     "id": "b92b49f",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -25,7 +25,7 @@
      },
      "elements": [
       {
-       "id": "f0b8b0a",
+       "id": "95cbea5",
        "elType": "widget",
        "settings": {
         "title": "Phase 1 — laying the foundation",
@@ -37,7 +37,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "5229854",
+       "id": "0a70f4c",
        "elType": "widget",
        "settings": {
         "space": {
@@ -50,7 +50,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "5f2fd69",
+       "id": "382e84f",
        "elType": "widget",
        "settings": {
         "title": "Building a <em>strong</em> ummah, together.",
@@ -62,7 +62,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "3471049",
+       "id": "86f3f80",
        "elType": "widget",
        "settings": {
         "space": {
@@ -75,7 +75,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "0d808e4",
+       "id": "6bc9a41",
        "elType": "widget",
        "settings": {
         "editor": "<p>An honest professional network for the ummah. A place to learn, to build and to help each other grow — within clear Islamic boundaries, focused on quality, knowledge and real impact.</p>",
@@ -85,7 +85,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "eca36c4",
+       "id": "18cecbe",
        "elType": "widget",
        "settings": {
         "space": {
@@ -98,7 +98,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "9889bb7",
+       "id": "a154a85",
        "elType": "widget",
        "settings": {
         "text": "Join",
@@ -113,7 +113,7 @@
        "widgetType": "button"
       },
       {
-       "id": "53781ee",
+       "id": "f9f3382",
        "elType": "widget",
        "settings": {
         "text": "Read our manifesto",
@@ -134,7 +134,7 @@
    "isInner": false
   },
   {
-   "id": "fc201f9",
+   "id": "cd0754d",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -147,7 +147,7 @@
    },
    "elements": [
     {
-     "id": "cce82cd",
+     "id": "e658256",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -155,7 +155,7 @@
      },
      "elements": [
       {
-       "id": "8a01df4",
+       "id": "995f853",
        "elType": "widget",
        "settings": {
         "starting_number": 0,
@@ -171,7 +171,7 @@
      "isInner": false
     },
     {
-     "id": "458e528",
+     "id": "aa2e18d",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -179,7 +179,7 @@
      },
      "elements": [
       {
-       "id": "722896f",
+       "id": "d7f6753",
        "elType": "widget",
        "settings": {
         "starting_number": 0,
@@ -195,7 +195,7 @@
      "isInner": false
     },
     {
-     "id": "3730455",
+     "id": "668a01c",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -203,7 +203,7 @@
      },
      "elements": [
       {
-       "id": "d33dfb2",
+       "id": "ed1a229",
        "elType": "widget",
        "settings": {
         "starting_number": 0,
@@ -222,11 +222,11 @@
    "isInner": false
   },
   {
-   "id": "110fbee",
+   "id": "6ad41fd",
    "elType": "section",
    "settings": {
     "gap": "wide",
-    "css_classes": "ub-section ub-bg-cream",
+    "css_classes": "ub-section ub-section--head ub-bg-cream",
     "content_width": {
      "unit": "px",
      "size": 1140,
@@ -235,7 +235,7 @@
    },
    "elements": [
     {
-     "id": "20048f2",
+     "id": "b0773e8",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -243,7 +243,7 @@
      },
      "elements": [
       {
-       "id": "e81f55d",
+       "id": "2cee305",
        "elType": "widget",
        "settings": {
         "title": "Why Ummah Builders",
@@ -255,7 +255,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "9928b5a",
+       "id": "abf78f6",
        "elType": "widget",
        "settings": {
         "title": "The talent is there. It is just <em>scattered</em>.",
@@ -267,7 +267,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "226a1e4",
+       "id": "ad902b9",
        "elType": "widget",
        "settings": {
         "editor": "<p>The ummah is full of engineers, entrepreneurs, designers, researchers and seasoned professionals. What is missing is a place where that talent finds each other, shares knowledge and builds together — and where young people see what is possible.</p>",
@@ -277,7 +277,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "284ad7a",
+       "id": "c6850fa",
        "elType": "widget",
        "settings": {
         "space": {
@@ -296,7 +296,7 @@
    "isInner": false
   },
   {
-   "id": "db92ec2",
+   "id": "32cdb42",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -309,7 +309,7 @@
    },
    "elements": [
     {
-     "id": "05320ef",
+     "id": "be38b1d",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -317,7 +317,7 @@
      },
      "elements": [
       {
-       "id": "8183fd2",
+       "id": "4044faa",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -337,7 +337,7 @@
      "isInner": false
     },
     {
-     "id": "c591d2e",
+     "id": "f92b805",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -345,7 +345,7 @@
      },
      "elements": [
       {
-       "id": "d779dcf",
+       "id": "bb35fc7",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -365,7 +365,7 @@
      "isInner": false
     },
     {
-     "id": "aadfe9f",
+     "id": "d650c06",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -373,7 +373,7 @@
      },
      "elements": [
       {
-       "id": "39b9e66",
+       "id": "f460b21",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -396,11 +396,11 @@
    "isInner": false
   },
   {
-   "id": "762a02c",
+   "id": "246bad8",
    "elType": "section",
    "settings": {
     "gap": "wide",
-    "css_classes": "ub-section ub-bg-paper",
+    "css_classes": "ub-section ub-section--head ub-bg-paper",
     "content_width": {
      "unit": "px",
      "size": 1140,
@@ -409,7 +409,7 @@
    },
    "elements": [
     {
-     "id": "b21aca7",
+     "id": "304250f",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -417,7 +417,7 @@
      },
      "elements": [
       {
-       "id": "bed248f",
+       "id": "689ac34",
        "elType": "widget",
        "settings": {
         "title": "A ladder for every stage",
@@ -429,7 +429,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "c12617a",
+       "id": "e313480",
        "elType": "widget",
        "settings": {
         "title": "From first step to your own project.",
@@ -441,7 +441,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "5f8ab2b",
+       "id": "0ae05da",
        "elType": "widget",
        "settings": {
         "space": {
@@ -460,7 +460,7 @@
    "isInner": false
   },
   {
-   "id": "eef528f",
+   "id": "a135cd0",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -473,7 +473,7 @@
    },
    "elements": [
     {
-     "id": "3076dc2",
+     "id": "9a39b18",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -481,7 +481,7 @@
      },
      "elements": [
       {
-       "id": "e47c375",
+       "id": "65151fb",
        "elType": "widget",
        "settings": {
         "title": "01",
@@ -492,7 +492,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "293ed1a",
+       "id": "98b1c67",
        "elType": "widget",
        "settings": {
         "title": "Buddy",
@@ -503,7 +503,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "1ea38a3",
+       "id": "b39e325",
        "elType": "widget",
        "settings": {
         "editor": "<p>Every new member gets a buddy, following the example of the Muhajirun and the Ansar, to help them find their way in the community.</p>"
@@ -515,7 +515,7 @@
      "isInner": false
     },
     {
-     "id": "7bb5a00",
+     "id": "03e7802",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -523,7 +523,7 @@
      },
      "elements": [
       {
-       "id": "fbd026a",
+       "id": "4201ad7",
        "elType": "widget",
        "settings": {
         "title": "02",
@@ -534,7 +534,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "687b3cb",
+       "id": "3feffab",
        "elType": "widget",
        "settings": {
         "title": "Mentor",
@@ -545,7 +545,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "6e4f168",
+       "id": "99f30e1",
        "elType": "widget",
        "settings": {
         "editor": "<p>Starters and young people are paired with experienced professionals for guidance in their career and business.</p>"
@@ -557,7 +557,7 @@
      "isInner": false
     },
     {
-     "id": "b8871d8",
+     "id": "f47d74a",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -565,7 +565,7 @@
      },
      "elements": [
       {
-       "id": "68e1ed4",
+       "id": "df69064",
        "elType": "widget",
        "settings": {
         "title": "03",
@@ -576,7 +576,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "7302c8c",
+       "id": "e0c8a59",
        "elType": "widget",
        "settings": {
         "title": "Shark tank",
@@ -587,7 +587,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "a9ae982",
+       "id": "44a44de",
        "elType": "widget",
        "settings": {
         "editor": "<p>Pitch your idea to mentors and experienced entrepreneurs and get honest feedback on your plan.</p>"
@@ -599,7 +599,7 @@
      "isInner": false
     },
     {
-     "id": "429b0cf",
+     "id": "aba7b63",
      "elType": "column",
      "settings": {
       "_column_size": 25,
@@ -607,7 +607,7 @@
      },
      "elements": [
       {
-       "id": "847eb4e",
+       "id": "1407a46",
        "elType": "widget",
        "settings": {
         "title": "04",
@@ -618,7 +618,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "50286f5",
+       "id": "f022966",
        "elType": "widget",
        "settings": {
         "title": "Build",
@@ -629,7 +629,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "768fdb2",
+       "id": "17a02e6",
        "elType": "widget",
        "settings": {
         "editor": "<p>Strong projects get guidance, a team from the network and, later on, access to halal funding.</p>"
@@ -644,7 +644,7 @@
    "isInner": false
   },
   {
-   "id": "5d5e3a0",
+   "id": "72f10d7",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -657,7 +657,7 @@
    },
    "elements": [
     {
-     "id": "31a7f82",
+     "id": "0f3d21a",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -665,7 +665,7 @@
      },
      "elements": [
       {
-       "id": "0ddf1ec",
+       "id": "b8a564a",
        "elType": "widget",
        "settings": {
         "title": "An example for the youth",
@@ -677,7 +677,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "8578f38",
+       "id": "f426fa0",
        "elType": "widget",
        "settings": {
         "space": {
@@ -690,7 +690,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "a33fece",
+       "id": "edeb403",
        "elType": "widget",
        "settings": {
         "title": "“We want to be positive role models, so young people do not depend on the wrong examples.”",
@@ -702,7 +702,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "8b18a9b",
+       "id": "a9532ed",
        "elType": "widget",
        "settings": {
         "space": {
@@ -715,7 +715,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "e9eef66",
+       "id": "ef3e080",
        "elType": "widget",
        "settings": {
         "editor": "<p>Members share their career ladder: how they started, where they got stuck and what the network meant to them. That way young people see there is a path.</p>",
@@ -731,11 +731,11 @@
    "isInner": false
   },
   {
-   "id": "eb6fe4c",
+   "id": "081a231",
    "elType": "section",
    "settings": {
     "gap": "wide",
-    "css_classes": "ub-section ub-bg-night",
+    "css_classes": "ub-section ub-section--head ub-bg-night",
     "content_width": {
      "unit": "px",
      "size": 1140,
@@ -744,7 +744,7 @@
    },
    "elements": [
     {
-     "id": "d541c33",
+     "id": "13d9bf6",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -752,7 +752,7 @@
      },
      "elements": [
       {
-       "id": "cad1adb",
+       "id": "dbc1d2c",
        "elType": "widget",
        "settings": {
         "title": "Our boundaries",
@@ -764,7 +764,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "2f13c4d",
+       "id": "86e6e34",
        "elType": "widget",
        "settings": {
         "title": "What we deliberately do <em>not</em> do.",
@@ -776,7 +776,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "87a7c47",
+       "id": "626de66",
        "elType": "widget",
        "settings": {
         "space": {
@@ -795,7 +795,7 @@
    "isInner": false
   },
   {
-   "id": "a50ecb1",
+   "id": "5520754",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -808,7 +808,7 @@
    },
    "elements": [
     {
-     "id": "cba97ff",
+     "id": "d21c8dc",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -816,7 +816,7 @@
      },
      "elements": [
       {
-       "id": "9214725",
+       "id": "0a97760",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -836,7 +836,7 @@
      "isInner": false
     },
     {
-     "id": "f1ce2e3",
+     "id": "7fc86eb",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -844,7 +844,7 @@
      },
      "elements": [
       {
-       "id": "5d460e7",
+       "id": "d4292ca",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -864,7 +864,7 @@
      "isInner": false
     },
     {
-     "id": "3ff3fd7",
+     "id": "44749c9",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -872,7 +872,7 @@
      },
      "elements": [
       {
-       "id": "2104624",
+       "id": "2f57ba7",
        "elType": "widget",
        "settings": {
         "selected_icon": {
@@ -895,11 +895,11 @@
    "isInner": false
   },
   {
-   "id": "d60eaea",
+   "id": "bf932c6",
    "elType": "section",
    "settings": {
     "gap": "wide",
-    "css_classes": "ub-section ub-bg-paper",
+    "css_classes": "ub-section ub-section--head ub-bg-paper",
     "content_width": {
      "unit": "px",
      "size": 1140,
@@ -908,7 +908,7 @@
    },
    "elements": [
     {
-     "id": "7774df1",
+     "id": "5aea16e",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -916,7 +916,7 @@
      },
      "elements": [
       {
-       "id": "cba0ebd",
+       "id": "647304b",
        "elType": "widget",
        "settings": {
         "title": "Becoming a member",
@@ -928,7 +928,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "a915ffb",
+       "id": "f1354b1",
        "elType": "widget",
        "settings": {
         "title": "Join in three steps.",
@@ -940,7 +940,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "2f2ab94",
+       "id": "8696343",
        "elType": "widget",
        "settings": {
         "space": {
@@ -959,7 +959,7 @@
    "isInner": false
   },
   {
-   "id": "8a8f4a6",
+   "id": "a37795e",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -972,7 +972,7 @@
    },
    "elements": [
     {
-     "id": "b7c6894",
+     "id": "77f121b",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -980,7 +980,7 @@
      },
      "elements": [
       {
-       "id": "957e1ee",
+       "id": "f9aa995",
        "elType": "widget",
        "settings": {
         "title": "1",
@@ -991,7 +991,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "426eb2a",
+       "id": "e8a7c2d",
        "elType": "widget",
        "settings": {
         "title": "Create your profile",
@@ -1002,7 +1002,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "f442f1b",
+       "id": "cd7751c",
        "elType": "widget",
        "settings": {
         "editor": "<p>Tell us who you are, what you do and which themes you want to learn about or contribute to.</p>"
@@ -1014,7 +1014,7 @@
      "isInner": false
     },
     {
-     "id": "c5d6741",
+     "id": "32c9378",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -1022,7 +1022,7 @@
      },
      "elements": [
       {
-       "id": "ba07349",
+       "id": "e1c1db9",
        "elType": "widget",
        "settings": {
         "title": "2",
@@ -1033,7 +1033,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "6b86e6f",
+       "id": "bc65630",
        "elType": "widget",
        "settings": {
         "title": "Get to know the community",
@@ -1044,7 +1044,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "17d2aff",
+       "id": "52e9345",
        "elType": "widget",
        "settings": {
         "editor": "<p>Your buddy helps you get started and introduces you to people who match your goals.</p>"
@@ -1056,7 +1056,7 @@
      "isInner": false
     },
     {
-     "id": "ed24979",
+     "id": "96af28a",
      "elType": "column",
      "settings": {
       "_column_size": 33.333,
@@ -1064,7 +1064,7 @@
      },
      "elements": [
       {
-       "id": "ba5e70f",
+       "id": "259fe0d",
        "elType": "widget",
        "settings": {
         "title": "3",
@@ -1075,7 +1075,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "8fa148f",
+       "id": "6764a88",
        "elType": "widget",
        "settings": {
         "title": "Build with us",
@@ -1086,7 +1086,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "7fec1aa",
+       "id": "826edfb",
        "elType": "widget",
        "settings": {
         "editor": "<p>Join talks, hackathons and project groups — or start one yourself.</p>"
@@ -1101,7 +1101,7 @@
    "isInner": false
   },
   {
-   "id": "232f373",
+   "id": "cfec47e",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -1114,7 +1114,7 @@
    },
    "elements": [
     {
-     "id": "389a730",
+     "id": "ec56adb",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1122,7 +1122,7 @@
      },
      "elements": [
       {
-       "id": "1303728",
+       "id": "565f50d",
        "elType": "widget",
        "settings": {
         "title": "Where we are",
@@ -1134,7 +1134,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "bc96301",
+       "id": "6dc59c1",
        "elType": "widget",
        "settings": {
         "title": "We are building step by step.",
@@ -1146,7 +1146,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "77d8a34",
+       "id": "038edcf",
        "elType": "widget",
        "settings": {
         "editor": "<p>We are in phase 1: the manifesto, clear rules and the core team. Next come the first website, knowledge base and events, a community platform, a transparent halal payment system and smart matching.</p>",
@@ -1156,7 +1156,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "076d498",
+       "id": "9aafdb0",
        "elType": "widget",
        "settings": {
         "space": {
@@ -1169,7 +1169,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "72a8c08",
+       "id": "21182b9",
        "elType": "widget",
        "settings": {
         "text": "View the roadmap",
@@ -1191,7 +1191,7 @@
    "isInner": false
   },
   {
-   "id": "d8538f9",
+   "id": "25ce5f7",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -1204,7 +1204,7 @@
    },
    "elements": [
     {
-     "id": "ded085b",
+     "id": "73b6e92",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -1212,7 +1212,7 @@
      },
      "elements": [
       {
-       "id": "84913ed",
+       "id": "a6fceef",
        "elType": "widget",
        "settings": {
         "title": "The ummah is building.<br><em>Will you build with us?</em>",
@@ -1224,7 +1224,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "1730683",
+       "id": "e9eae99",
        "elType": "widget",
        "settings": {
         "space": {
@@ -1237,7 +1237,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "a983f04",
+       "id": "d4c9907",
        "elType": "widget",
        "settings": {
         "editor": "<p>Create your profile and become part of a network that learns, builds and helps each other grow.</p>",
@@ -1247,7 +1247,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "3e1bbb1",
+       "id": "10be24f",
        "elType": "widget",
        "settings": {
         "space": {
@@ -1260,7 +1260,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "59a1735",
+       "id": "a8163dd",
        "elType": "widget",
        "settings": {
         "text": "Create your profile",

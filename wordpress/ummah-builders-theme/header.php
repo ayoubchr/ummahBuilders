@@ -38,6 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				)
 			);
 			?>
+			<a class="ub-nav__login" href="#ub-login"><?php echo esc_html( ub_t( 'Inloggen', 'Log in' ) ); ?></a>
 		</nav>
 
 		<div class="ub-header__actions">

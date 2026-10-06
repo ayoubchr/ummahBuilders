@@ -12,6 +12,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'UB_THEME_VERSION', '1.0.0' );
 
 /**
+ * Cache-busting version: theme version plus the file's modification time.
+ */
+function ub_asset_version( $relative_path ) {
+	$file = get_stylesheet_directory() . '/' . $relative_path;
+	return UB_THEME_VERSION . '.' . ( file_exists( $file ) ? filemtime( $file ) : '0' );
+}
+
+/**
  * Styles and scripts.
  */
 function ub_enqueue_assets() {
@@ -25,13 +33,13 @@ function ub_enqueue_assets() {
 		'ub-theme',
 		get_stylesheet_uri(),
 		array( 'hello-elementor', 'ub-fonts' ),
-		UB_THEME_VERSION
+		ub_asset_version( 'style.css' )
 	);
 	wp_enqueue_script(
 		'ub-theme',
 		get_stylesheet_directory_uri() . '/assets/theme.js',
 		array(),
-		UB_THEME_VERSION,
+		ub_asset_version( 'assets/theme.js' ),
 		true
 	);
 	wp_localize_script(

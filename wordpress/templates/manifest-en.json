@@ -4,20 +4,20 @@
  "type": "page",
  "content": [
   {
-   "id": "91c2a95",
+   "id": "04d9022",
    "elType": "section",
    "settings": {
     "gap": "default",
     "css_classes": "ub-section ub-bg-cream",
     "content_width": {
      "unit": "px",
-     "size": 1140,
+     "size": 760,
      "sizes": []
     }
    },
    "elements": [
     {
-     "id": "c4bb47b",
+     "id": "bae7d21",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -25,7 +25,7 @@
      },
      "elements": [
       {
-       "id": "e1195f3",
+       "id": "96e89be",
        "elType": "widget",
        "settings": {
         "title": "First draft — to be developed together",
@@ -37,7 +37,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "10490f2",
+       "id": "d09b032",
        "elType": "widget",
        "settings": {
         "title": "The Ummah Builders <em>manifesto</em>",
@@ -49,7 +49,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "419aeab",
+       "id": "92fb68c",
        "elType": "widget",
        "settings": {
         "space": {
@@ -62,7 +62,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "e3a125d",
+       "id": "c503720",
        "elType": "widget",
        "settings": {
         "editor": "<p>We want to build a strong and honest professional network for the ummah: a place where people come together to learn, to build and to help each other grow.</p>",
@@ -72,7 +72,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "7636ad1",
+       "id": "01a5234",
        "elType": "widget",
        "settings": {
         "space": {
@@ -85,7 +85,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "595feab",
+       "id": "659d8ed",
        "elType": "widget",
        "settings": {
         "title": "I. Within Islamic boundaries",
@@ -96,7 +96,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "b884cd9",
+       "id": "a64a4be",
        "elType": "widget",
        "settings": {
         "editor": "<p>Everything we do happens within clear Islamic boundaries: in how we treat each other, money and data.</p>"
@@ -105,7 +105,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "cb89503",
+       "id": "39941dc",
        "elType": "widget",
        "settings": {
         "space": {
@@ -118,7 +118,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "490c9e8",
+       "id": "fdfe234",
        "elType": "widget",
        "settings": {
         "title": "II. Quality and knowledge",
@@ -129,7 +129,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "5a003f6",
+       "id": "52f6ecf",
        "elType": "widget",
        "settings": {
         "editor": "<p>We choose substance over noise. Structured conversations, a shared knowledge base and mentoring by experienced professionals.</p>"
@@ -138,7 +138,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "d4f3809",
+       "id": "373ef50",
        "elType": "widget",
        "settings": {
         "space": {
@@ -151,7 +151,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "2807a48",
+       "id": "783e0db",
        "elType": "widget",
        "settings": {
         "title": "III. Real impact",
@@ -162,7 +162,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "c644bdd",
+       "id": "75c512c",
        "elType": "widget",
        "settings": {
         "editor": "<p>The talent within the ummah is vast but scattered. Through project groups, hackathons and shark-tank sessions we turn ideas into working projects.</p>"
@@ -171,7 +171,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "fbecf9a",
+       "id": "eb0677b",
        "elType": "widget",
        "settings": {
         "space": {
@@ -184,7 +184,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "bc8419d",
+       "id": "4703999",
        "elType": "widget",
        "settings": {
         "title": "IV. An example for the youth",
@@ -195,7 +195,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "ba60e5e",
+       "id": "b4e8eda",
        "elType": "widget",
        "settings": {
         "editor": "<p>We want to be positive role models, so young people do not depend on the wrong examples. Members share their career ladder so others see what is possible.</p>"
@@ -204,7 +204,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "7b704ec",
+       "id": "24b5c0b",
        "elType": "widget",
        "settings": {
         "space": {
@@ -217,7 +217,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "4a6d73e",
+       "id": "82a28c9",
        "elType": "widget",
        "settings": {
         "title": "V. What we do not do",
@@ -228,7 +228,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "af1ed0a",
+       "id": "1411c35",
        "elType": "widget",
        "settings": {
         "editor": "<p>No addictive algorithm, no DM culture and no misuse of data. Money that flows through the community is reported transparently.</p>"
@@ -237,7 +237,7 @@
        "widgetType": "text-editor"
       },
       {
-       "id": "d6b3d9c",
+       "id": "f153cd3",
        "elType": "widget",
        "settings": {
         "space": {
@@ -250,7 +250,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "30a2cc8",
+       "id": "a34c069",
        "elType": "widget",
        "settings": {
         "space": {
@@ -263,7 +263,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "3d639a0",
+       "id": "e014b53",
        "elType": "widget",
        "settings": {
         "text": "Join",

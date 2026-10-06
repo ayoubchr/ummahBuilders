@@ -121,6 +121,7 @@ a:hover { color: var(--ub-teal-dark); }
 .ub-nav .current-menu-item > a { color: var(--ub-teal); }
 
 .ub-header__actions { display: flex; align-items: center; gap: 12px; }
+.ub-nav__login { display: none; }
 
 .ub-lang ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 4px; }
 .ub-lang a {
@@ -160,6 +161,12 @@ a:hover { color: var(--ub-teal-dark); }
 	.ub-nav.is-open { display: block; }
 	.ub-nav ul { flex-direction: column; gap: 14px; }
 	.ub-header__actions .ub-btn--ghost { display: none; }
+	.ub-nav__login {
+		display: block;
+		margin-top: 14px;
+		padding-top: 14px;
+		border-top: 1px solid var(--ub-line);
+	}
 }
 
 /* ---------- Buttons (header + Elementor button widget with ub classes) ---------- */
@@ -201,6 +208,9 @@ a:hover { color: var(--ub-teal-dark); }
 /* ---------- Section helpers (set as "CSS Classes" on Elementor sections) ---------- */
 .ub-section { padding: 110px 20px; }
 .ub-section--tight { padding: 70px 20px; }
+/* Intro block directly followed by the section it introduces */
+.ub-section--head { padding-bottom: 0; }
+.ub-section--head + .ub-section--tight { padding-top: 30px; }
 .ub-bg-paper { background: var(--ub-paper); }
 .ub-bg-cream { background: var(--ub-cream); }
 .ub-bg-night { background: var(--ub-night); }
@@ -210,6 +220,7 @@ a:hover { color: var(--ub-teal-dark); }
 @media (max-width: 767px) {
 	.ub-section { padding: 70px 16px; }
 	.ub-section--tight { padding: 50px 16px; }
+	.ub-section--head { padding-bottom: 0; }
 }
 
 /* Small uppercase label above headings */
@@ -287,7 +298,8 @@ a:hover { color: var(--ub-teal-dark); }
 }
 
 /* Cards (icon-box) */
-.ub-card > .elementor-widget-container {
+.ub-card {
+	box-sizing: border-box;
 	height: 100%;
 	background: var(--ub-paper);
 	border: 1px solid var(--ub-line);
@@ -295,7 +307,7 @@ a:hover { color: var(--ub-teal-dark); }
 	padding: 34px 30px;
 	transition: transform .25s ease, box-shadow .25s ease;
 }
-.ub-card > .elementor-widget-container:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -24px rgba(20,32,29,.35); }
+.ub-card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -24px rgba(20,32,29,.35); }
 .ub-card .elementor-icon {
 	font-size: 22px;
 	width: 52px;
@@ -316,7 +328,7 @@ a:hover { color: var(--ub-teal-dark); }
 	color: var(--ub-ink);
 }
 .ub-card .elementor-icon-box-description { color: var(--ub-ink-soft); font-size: 16px; line-height: 1.65; }
-.ub-bg-night .ub-card > .elementor-widget-container { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.08); }
+.ub-bg-night .ub-card { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.08); }
 .ub-bg-night .ub-card .elementor-icon-box-title { color: #fff; }
 .ub-bg-night .ub-card .elementor-icon-box-description { color: #a9b5b1; }
 .ub-bg-night .ub-card .elementor-icon { background: rgba(184,145,74,.15); }

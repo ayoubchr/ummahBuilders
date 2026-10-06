@@ -35,10 +35,11 @@ Alles werkt met de **gratis** versie van Elementor.
 
    Open de pagina met **Bewerken met Elementor** → map-icoon → **Mijn templates** → **Invoegen**.
    Zet bij Pagina-instellingen de lay-out op **Elementor Volledige breedte**.
-7. **Startpagina**: Instellingen → Lezen → Een statische pagina → Home.
-8. **Menu's**: Weergave → Menu's. Maak per taal een hoofdmenu (bv. Manifest, Roadmap) en wijs het
+7. **Permalinks**: Instellingen → Permalinks → kies **Berichtnaam**. Anders werken adressen als `/manifest/` niet.
+8. **Startpagina**: Instellingen → Lezen → Een statische pagina → Home.
+9. **Menu's**: Weergave → Menu's. Maak per taal een hoofdmenu (bv. Manifest, Roadmap) en wijs het
    toe aan *Hoofdmenu*; optioneel een footermenu (privacy, contact).
-9. **Link naar de ledenapp**: Weergave → Customizer → *Ummah Builders ledenapp* → vul de URL in
+10. **Link naar de ledenapp**: Weergave → Customizer → *Ummah Builders ledenapp* → vul de URL in
    (bv. `https://app.ummahbuilders.be`).
 
 ## Zelf aanpassen in Elementor

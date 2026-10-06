@@ -38,12 +38,12 @@ def column(widgets, size=100, css=""):
     return {"id": _id(), "elType": "column", "settings": settings, "elements": widgets, "isInner": False}
 
 
-def section(columns, css="", full_width=False, gap="wide"):
+def section(columns, css="", full_width=False, gap="wide", width=1140):
     settings = {"gap": gap, "css_classes": css}
     if full_width:
         settings["layout"] = "full_width"
     else:
-        settings["content_width"] = {"unit": "px", "size": 1140, "sizes": []}
+        settings["content_width"] = {"unit": "px", "size": width, "sizes": []}
     return {"id": _id(), "elType": "section", "settings": settings, "elements": columns, "isInner": False}
 
 
@@ -300,11 +300,11 @@ def home(c):
         section([column([counter(n, label)], size=33.333) for n, label in c["stats"]],
                 css="ub-section--tight ub-bg-paper"),
 
-        section([column(intro(c["why_eyebrow"], c["why_title"], c["why_text"]))], css="ub-section ub-bg-cream"),
+        section([column(intro(c["why_eyebrow"], c["why_title"], c["why_text"]))], css="ub-section ub-section--head ub-bg-cream"),
 
         section([column([card(*p)], size=33.333) for p in c["pillars"]], css="ub-section--tight ub-bg-cream"),
 
-        section([column(intro(c["ladder_eyebrow"], c["ladder_title"]))], css="ub-section ub-bg-paper"),
+        section([column(intro(c["ladder_eyebrow"], c["ladder_title"]))], css="ub-section ub-section--head ub-bg-paper"),
         section([column([
             heading(num, "p", "ub-step-number"),
             heading(title, "h3", "ub-step-title"),
@@ -319,10 +319,10 @@ def home(c):
             text(f"<p>{c['meaning_text']}</p>", align="center"),
         ])], css="ub-section ub-bg-cream"),
 
-        section([column(intro(c["principles_eyebrow"], c["principles_title"]))], css="ub-section ub-bg-night"),
+        section([column(intro(c["principles_eyebrow"], c["principles_title"]))], css="ub-section ub-section--head ub-bg-night"),
         section([column([card(*p)], size=33.333) for p in c["principles"]], css="ub-section--tight ub-bg-night"),
 
-        section([column(intro(c["steps_eyebrow"], c["steps_title"]))], css="ub-section ub-bg-paper"),
+        section([column(intro(c["steps_eyebrow"], c["steps_title"]))], css="ub-section ub-section--head ub-bg-paper"),
         section([column([
             heading(num, "p", "ub-step-number"),
             heading(title, "h3", "ub-step-title"),
@@ -357,13 +357,13 @@ def manifesto(lang):
         body += [heading(title, "h2", "ub-step-title"), text(f"<p>{para}</p>"), spacer(20)]
     body += [spacer(20), button(c["join"], "#ub-join", "ub-btn-primary", "center")]
     return template(c["manifesto_page"], [
-        section([column(body)], css="ub-section ub-bg-cream", gap="default"),
+        section([column(body)], css="ub-section ub-bg-cream", gap="default", width=760),
     ])
 
 
 def roadmap(lang):
     r, c = ROADMAP[lang], COPY[lang]
-    content = [section([column(intro(r["eyebrow"], r["title"]))], css="ub-section ub-bg-cream")]
+    content = [section([column(intro(r["eyebrow"], r["title"]))], css="ub-section ub-section--head ub-bg-cream")]
     for i, (period, title, items) in enumerate(r["phases"]):
         label = f"{period} · {r['current']}" if i == 0 else period
         bullets = "".join(f"<li>{item}</li>" for item in items)
