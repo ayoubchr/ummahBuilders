@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "6cf40fd",
+   "id": "e2c793b",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -17,7 +17,7 @@
    },
    "elements": [
     {
-     "id": "65506f8",
+     "id": "8d898d0",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -25,7 +25,7 @@
      },
      "elements": [
       {
-       "id": "b9cd84f",
+       "id": "5659abc",
        "elType": "widget",
        "settings": {
         "title": "Roadmap",
@@ -37,11 +37,11 @@
        "widgetType": "heading"
       },
       {
-       "id": "16f1b65",
+       "id": "d58caa7",
        "elType": "widget",
        "settings": {
         "title": "How we build the ecosystem, <em>step by step</em>.",
-        "header_size": "h2",
+        "header_size": "h1",
         "_css_classes": "ub-title",
         "align": "center"
        },
@@ -49,7 +49,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "7936b55",
+       "id": "350eabf",
        "elType": "widget",
        "settings": {
         "space": {
@@ -68,7 +68,7 @@
    "isInner": false
   },
   {
-   "id": "a9258e2",
+   "id": "462d3e8",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -81,7 +81,7 @@
    },
    "elements": [
     {
-     "id": "4ec23e7",
+     "id": "73c99fe",
      "elType": "column",
      "settings": {
       "_column_size": 16,
@@ -89,7 +89,7 @@
      },
      "elements": [
       {
-       "id": "39cd565",
+       "id": "641cfda",
        "elType": "widget",
        "settings": {
         "title": "01",
@@ -103,7 +103,7 @@
      "isInner": false
     },
     {
-     "id": "4047f55",
+     "id": "3565e64",
      "elType": "column",
      "settings": {
       "_column_size": 84,
@@ -111,7 +111,7 @@
      },
      "elements": [
       {
-       "id": "4493cf7",
+       "id": "70abb3c",
        "elType": "widget",
        "settings": {
         "title": "0–3 months · In progress",
@@ -122,7 +122,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "85e884b",
+       "id": "3174de9",
        "elType": "widget",
        "settings": {
         "title": "Direction and foundation",
@@ -133,7 +133,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "c76bf04",
+       "id": "b4fc9d5",
        "elType": "widget",
        "settings": {
         "editor": "<ul><li>Manifesto: what we stand for, what we do and do not do</li><li>Clear rules on conduct, finances and data</li><li>Set up the core team and how decisions are made</li><li>Map the talent and expertise within the group</li><li>Learn from existing Muslim initiatives in other countries</li></ul>"
@@ -148,7 +148,7 @@
    "isInner": false
   },
   {
-   "id": "821222f",
+   "id": "a712cfc",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -161,7 +161,7 @@
    },
    "elements": [
     {
-     "id": "7c66222",
+     "id": "df57e38",
      "elType": "column",
      "settings": {
       "_column_size": 16,
@@ -169,7 +169,7 @@
      },
      "elements": [
       {
-       "id": "d92e1ab",
+       "id": "16309ad",
        "elType": "widget",
        "settings": {
         "title": "02",
@@ -183,7 +183,7 @@
      "isInner": false
     },
     {
-     "id": "bf601f3",
+     "id": "e6e28a5",
      "elType": "column",
      "settings": {
       "_column_size": 84,
@@ -191,7 +191,7 @@
      },
      "elements": [
       {
-       "id": "fd0f8d2",
+       "id": "b1fc7d6",
        "elType": "widget",
        "settings": {
         "title": "3–8 months",
@@ -202,7 +202,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "7c7d6a1",
+       "id": "daeac4f",
        "elType": "widget",
        "settings": {
         "title": "First community and testing",
@@ -213,7 +213,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "061ba9e",
+       "id": "08ac21a",
        "elType": "widget",
        "settings": {
         "editor": "<ul><li>Website (first version) and knowledge base</li><li>First talks and a small, practical hackathon</li><li>Partnerships with student associations</li><li>Podcast and short videos on career development</li><li>Shark-tank sessions for new ideas</li></ul>"
@@ -228,7 +228,7 @@
    "isInner": false
   },
   {
-   "id": "bed13d4",
+   "id": "a8b16ba",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -241,7 +241,7 @@
    },
    "elements": [
     {
-     "id": "f846425",
+     "id": "0fa6755",
      "elType": "column",
      "settings": {
       "_column_size": 16,
@@ -249,7 +249,7 @@
      },
      "elements": [
       {
-       "id": "628c14d",
+       "id": "e8410fe",
        "elType": "widget",
        "settings": {
         "title": "03",
@@ -263,7 +263,7 @@
      "isInner": false
     },
     {
-     "id": "a83d41d",
+     "id": "eb96d7d",
      "elType": "column",
      "settings": {
       "_column_size": 84,
@@ -271,7 +271,7 @@
      },
      "elements": [
       {
-       "id": "58c7dc5",
+       "id": "a905574",
        "elType": "widget",
        "settings": {
         "title": "8–15 months",
@@ -282,7 +282,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "ec8e581",
+       "id": "0f71d76",
        "elType": "widget",
        "settings": {
         "title": "Community platform",
@@ -293,7 +293,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "9d87a49",
+       "id": "6310d06",
        "elType": "widget",
        "settings": {
         "editor": "<ul><li>Theme channels, forum and project groups</li><li>Halal freelance and project matching within the ummah</li><li>Portfolios, mentoring and a buddy system</li><li>Help with jobs, internships and professional development</li><li>Small-scale events and local sponsors</li></ul>"
@@ -308,7 +308,7 @@
    "isInner": false
   },
   {
-   "id": "35c321f",
+   "id": "b0b2f86",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -321,7 +321,7 @@
    },
    "elements": [
     {
-     "id": "377f46c",
+     "id": "b3c90b0",
      "elType": "column",
      "settings": {
       "_column_size": 16,
@@ -329,7 +329,7 @@
      },
      "elements": [
       {
-       "id": "b2f948f",
+       "id": "a40fc46",
        "elType": "widget",
        "settings": {
         "title": "04",
@@ -343,7 +343,7 @@
      "isInner": false
     },
     {
-     "id": "5f7f734",
+     "id": "a6b9ee1",
      "elType": "column",
      "settings": {
       "_column_size": 84,
@@ -351,7 +351,7 @@
      },
      "elements": [
       {
-       "id": "a30a516",
+       "id": "72716f2",
        "elType": "widget",
        "settings": {
         "title": "15–20 months",
@@ -362,7 +362,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "3ccf4e4",
+       "id": "52f7b0d",
        "elType": "widget",
        "settings": {
         "title": "Financial system",
@@ -373,7 +373,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "f910104",
+       "id": "7aee6f8",
        "elType": "widget",
        "settings": {
         "editor": "<ul><li>Transparent halal payment system</li><li>Crowdfunding for projects</li><li>Clear reporting on money flows</li></ul>"
@@ -388,7 +388,7 @@
    "isInner": false
   },
   {
-   "id": "42bcca2",
+   "id": "7f884e9",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -401,7 +401,7 @@
    },
    "elements": [
     {
-     "id": "0d9200b",
+     "id": "059eb5d",
      "elType": "column",
      "settings": {
       "_column_size": 16,
@@ -409,7 +409,7 @@
      },
      "elements": [
       {
-       "id": "492584b",
+       "id": "8eb860c",
        "elType": "widget",
        "settings": {
         "title": "05",
@@ -423,7 +423,7 @@
      "isInner": false
     },
     {
-     "id": "f8b1fe7",
+     "id": "cee26ec",
      "elType": "column",
      "settings": {
       "_column_size": 84,
@@ -431,7 +431,7 @@
      },
      "elements": [
       {
-       "id": "7e87130",
+       "id": "0daaf5c",
        "elType": "widget",
        "settings": {
         "title": "20–30 months",
@@ -442,7 +442,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "d9979a8",
+       "id": "f005614",
        "elType": "widget",
        "settings": {
         "title": "AI and automation",
@@ -453,7 +453,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "cd8641d",
+       "id": "cbc9f13",
        "elType": "widget",
        "settings": {
         "editor": "<ul><li>AI search in the knowledge base</li><li>Smart matching with projects, internships and mentors</li><li>No misuse of data</li></ul>"
@@ -468,7 +468,7 @@
    "isInner": false
   },
   {
-   "id": "393bb8d",
+   "id": "6f9e202",
    "elType": "section",
    "settings": {
     "gap": "wide",
@@ -481,7 +481,7 @@
    },
    "elements": [
     {
-     "id": "c055488",
+     "id": "6b49dbf",
      "elType": "column",
      "settings": {
       "_column_size": 100,
@@ -489,7 +489,7 @@
      },
      "elements": [
       {
-       "id": "6d09436",
+       "id": "1d10edc",
        "elType": "widget",
        "settings": {
         "title": "The ummah is building.<br><em>Will you build with us?</em>",
@@ -501,7 +501,7 @@
        "widgetType": "heading"
       },
       {
-       "id": "e401be3",
+       "id": "584d52d",
        "elType": "widget",
        "settings": {
         "space": {
@@ -514,7 +514,7 @@
        "widgetType": "spacer"
       },
       {
-       "id": "ced02a1",
+       "id": "bbad80c",
        "elType": "widget",
        "settings": {
         "text": "Create your profile",

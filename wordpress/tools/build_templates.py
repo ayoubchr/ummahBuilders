@@ -107,9 +107,9 @@ def template(title, content):
     }
 
 
-def intro(eyebrow, title, body=None, align="center"):
+def intro(eyebrow, title, body=None, align="center", tag="h2"):
     """Eyebrow + section title (+ optional paragraph) as a widget list."""
-    items = [heading(eyebrow, "p", "ub-eyebrow", align), heading(title, "h2", "ub-title", align)]
+    items = [heading(eyebrow, "p", "ub-eyebrow", align), heading(title, tag, "ub-title", align)]
     if body:
         items.append(text(f"<p>{body}</p>", align=align))
     items.append(spacer(30))
@@ -222,7 +222,7 @@ COPY = {
         "cta_btn": "Create your profile",
         "manifesto_page": "Manifesto",
         "roadmap_page": "Roadmap",
-        "roadmap_url": "/en/roadmap/",
+        "roadmap_url": "/en/our-roadmap/",
         "manifesto_url": "/en/manifesto/",
     },
 }
@@ -363,7 +363,7 @@ def manifesto(lang):
 
 def roadmap(lang):
     r, c = ROADMAP[lang], COPY[lang]
-    content = [section([column(intro(r["eyebrow"], r["title"]))], css="ub-section ub-section--head ub-bg-cream")]
+    content = [section([column(intro(r["eyebrow"], r["title"], tag="h1"))], css="ub-section ub-section--head ub-bg-cream")]
     for i, (period, title, items) in enumerate(r["phases"]):
         label = f"{period} · {r['current']}" if i == 0 else period
         bullets = "".join(f"<li>{item}</li>" for item in items)

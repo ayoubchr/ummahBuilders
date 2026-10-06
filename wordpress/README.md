@@ -31,7 +31,9 @@ Alles werkt met de **gratis** versie van Elementor.
    |---|---|---|
    | Home | Home | `home-nl` / `home-en` |
    | Manifest (slug `manifest`) | Manifesto (slug `manifesto`) | `manifest-nl` / `manifest-en` |
-   | Roadmap (slug `roadmap`) | Roadmap (slug `roadmap`) | `roadmap-nl` / `roadmap-en` |
+   | Roadmap (slug `roadmap`) | Roadmap (slug `our-roadmap`) | `roadmap-nl` / `roadmap-en` |
+
+   Met de gratis Polylang moet elke slug uniek zijn; daarom heet de Engelse roadmap `our-roadmap`.
 
    Open de pagina met **Bewerken met Elementor** → map-icoon → **Mijn templates** → **Invoegen**.
    Zet bij Pagina-instellingen de lay-out op **Elementor Volledige breedte**.
@@ -72,3 +74,67 @@ python wordpress/tools/build_templates.py
 
 Let op: opnieuw importeren maakt een nieuw template aan; wijzigingen die je in Elementor zelf
 deed, worden niet overschreven.
+
+## Gratis online zetten (statische site op Cloudflare Pages)
+
+Je bewerkt de site in een WordPress op je eigen pc en publiceert een statische kopie (gewone
+HTML-bestanden). Online staat dus geen WordPress: snel, veilig en gratis.
+
+### Eenmalig: lokale WordPress opzetten
+
+Vereist: [Docker Desktop](https://www.docker.com/products/docker-desktop/). In de map `wordpress/local`:
+
+```bash
+docker compose up -d
+docker compose run --rm cli core install --url=http://localhost:8080 --title="Ummah Builders" --admin_user=admin --admin_password=KIES-EEN-WACHTWOORD --admin_email=jij@example.com --skip-email
+docker compose run --rm cli theme install hello-elementor
+docker compose run --rm cli plugin install elementor polylang simply-static --activate
+docker compose run --rm cli theme activate ummah-builders
+docker compose run --rm cli rewrite structure /%postname%/
+docker compose run --rm cli eval-file /tools/local-test-setup.php
+docker compose run --rm cli eval "PLL()->model->clean_languages_cache(); flush_rewrite_rules();"
+```
+
+> In Git Bash op Windows: zet eerst `export MSYS_NO_PATHCONV=1`, anders worden paden als
+> `/tools/...` verkeerd omgezet. In PowerShell is dat niet nodig.
+
+Het setupscript maakt de pagina's (NL + EN), de menu's, de Polylang-talen en de Simply Static-
+instellingen aan. Daarna: http://localhost:8080 (site) en http://localhost:8080/wp-admin (beheer).
+
+### Elke keer dat je iets wil publiceren
+
+1. Pas de site aan in Elementor op http://localhost:8080/wp-admin.
+2. Ga naar **Simply Static → Generate** en klik op **Push**. Wacht tot "Done!" verschijnt
+   (ongeveer 1 à 2 minuten). De bestanden staan dan in `wordpress/local/export`.
+3. Publiceer, vanuit de projectmap:
+
+   ```bash
+   npx wrangler pages deploy wordpress/local/export --project-name ummahbuilders
+   ```
+
+   De eerste keer opent `wrangler` je browser om in te loggen bij Cloudflare (gratis account) en
+   vraagt het om het project aan te maken. Daarna staat de site op
+   `https://ummahbuilders.pages.dev`.
+
+**Alternatief zonder commandoregel:** `python wordpress/tools/zip_export.py` maakt
+`wordpress/dist/ummahbuilders-site.zip`. Sleep die naar https://app.netlify.com/drop
+(gratis Netlify-account) voor een site op `*.netlify.app`.
+
+### De ledenapp
+
+De React-app (dashboard, netwerk, kennisbank) is een apart project:
+
+```bash
+npm run build
+npx wrangler pages deploy dist --project-name ummahbuilders-app
+```
+
+Die komt op `https://ummahbuilders-app.pages.dev`. Vul dat adres daarna in bij
+**Weergave → Customizer → Ummah Builders ledenapp** en publiceer de site opnieuw, zodat
+"Inloggen" en "Word lid" ernaartoe linken.
+
+### Eigen domein
+
+Koop een domein (bv. `ummahbuilders.be`, ±€10/jaar) en voeg het in Cloudflare toe via
+**Workers & Pages → ummahbuilders → Custom domains**. Doe hetzelfde met `app.ummahbuilders.be`
+voor de ledenapp.
