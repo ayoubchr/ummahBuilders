@@ -1,0 +1,543 @@
+{
+ "version": "0.4",
+ "title": "Roadmap",
+ "type": "page",
+ "content": [
+  {
+   "id": "504260f",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b39fbea",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "47f3a40",
+       "elType": "widget",
+       "settings": {
+        "title": "Roadmap",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8994273",
+       "elType": "widget",
+       "settings": {
+        "title": "Hoe we het ecosysteem <em>stap voor stap</em> bouwen.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "9f995b2",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "dd63fa5",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "45823e0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "7dd8606",
+       "elType": "widget",
+       "settings": {
+        "title": "01",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "d878562",
+     "elType": "column",
+     "settings": {
+      "_column_size": 84,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e084d64",
+       "elType": "widget",
+       "settings": {
+        "title": "0–3 maanden · Nu bezig",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "4fa5079",
+       "elType": "widget",
+       "settings": {
+        "title": "Richting en basis leggen",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "03e69a5",
+       "elType": "widget",
+       "settings": {
+        "editor": "<ul><li>Manifest: waar staan we voor, wat doen we wel en niet</li><li>Duidelijke regels rond gedrag, financiën en data</li><li>Kernteam en manier van beslissen vastleggen</li><li>Talent en expertise binnen de groep in kaart brengen</li><li>Leren van bestaande moslim-initiatieven in andere landen</li></ul>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5f44bee",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "7cea044",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "1cc041c",
+       "elType": "widget",
+       "settings": {
+        "title": "02",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c83d3cd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 84,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "9e01844",
+       "elType": "widget",
+       "settings": {
+        "title": "3–8 maanden",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5d84c59",
+       "elType": "widget",
+       "settings": {
+        "title": "Eerste community en testen",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "45912b5",
+       "elType": "widget",
+       "settings": {
+        "editor": "<ul><li>Website (eerste versie) en kennisbank</li><li>Eerste lezingen en een kleine, praktische hackathon</li><li>Samenwerking met studentenverenigingen</li><li>Podcast en korte video's over carrièreontwikkeling</li><li>Sharktank-sessies voor nieuwe ideeën</li></ul>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3a8e041",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "4b8fc8a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "714fee5",
+       "elType": "widget",
+       "settings": {
+        "title": "03",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "e0ca1b4",
+     "elType": "column",
+     "settings": {
+      "_column_size": 84,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "044c0f7",
+       "elType": "widget",
+       "settings": {
+        "title": "8–15 maanden",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "e40b574",
+       "elType": "widget",
+       "settings": {
+        "title": "Communityplatform",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "77cb630",
+       "elType": "widget",
+       "settings": {
+        "editor": "<ul><li>Themakanalen, forum en projectgroepen</li><li>Halal freelance- en projectmatching binnen de ummah</li><li>Portfolio's, mentoring en een buddy-systeem</li><li>Hulp bij werk, stages en professionele ontwikkeling</li><li>Kleinschalige evenementen en lokale sponsors</li></ul>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9ef42d4",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "f63054a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "25e71dc",
+       "elType": "widget",
+       "settings": {
+        "title": "04",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f22ab94",
+     "elType": "column",
+     "settings": {
+      "_column_size": 84,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "37a3d5e",
+       "elType": "widget",
+       "settings": {
+        "title": "15–20 maanden",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "31abd2b",
+       "elType": "widget",
+       "settings": {
+        "title": "Financieel systeem",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "23bba7a",
+       "elType": "widget",
+       "settings": {
+        "editor": "<ul><li>Transparant halal betaalsysteem</li><li>Crowdfunding voor projecten</li><li>Duidelijke rapportering over geldstromen</li></ul>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "546bbf4",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b8bddcd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 16,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "52d59d2",
+       "elType": "widget",
+       "settings": {
+        "title": "05",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "1315945",
+     "elType": "column",
+     "settings": {
+      "_column_size": 84,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d634f1c",
+       "elType": "widget",
+       "settings": {
+        "title": "20–30 maanden",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "592ea44",
+       "elType": "widget",
+       "settings": {
+        "title": "AI en automatisatie",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "baf3dd6",
+       "elType": "widget",
+       "settings": {
+        "editor": "<ul><li>AI-zoekfunctie in de kennisbank</li><li>Slimme matching met projecten, stages en mentors</li><li>Geen misbruik van data</li></ul>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "71c3b83",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-cta",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "c170e1c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "6111f28",
+       "elType": "widget",
+       "settings": {
+        "title": "De ummah bouwt.<br><em>Bouw je mee?</em>",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "01c4c1c",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "7d5523b",
+       "elType": "widget",
+       "settings": {
+        "text": "Maak je profiel aan",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-light",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

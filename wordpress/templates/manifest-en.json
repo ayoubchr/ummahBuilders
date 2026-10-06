@@ -1,0 +1,292 @@
+{
+ "version": "0.4",
+ "title": "Manifesto",
+ "type": "page",
+ "content": [
+  {
+   "id": "91c2a95",
+   "elType": "section",
+   "settings": {
+    "gap": "default",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "c4bb47b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e1195f3",
+       "elType": "widget",
+       "settings": {
+        "title": "First draft — to be developed together",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "10490f2",
+       "elType": "widget",
+       "settings": {
+        "title": "The Ummah Builders <em>manifesto</em>",
+        "header_size": "h1",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "419aeab",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "e3a125d",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We want to build a strong and honest professional network for the ummah: a place where people come together to learn, to build and to help each other grow.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "7636ad1",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 40,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "595feab",
+       "elType": "widget",
+       "settings": {
+        "title": "I. Within Islamic boundaries",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "b884cd9",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Everything we do happens within clear Islamic boundaries: in how we treat each other, money and data.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "cb89503",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "490c9e8",
+       "elType": "widget",
+       "settings": {
+        "title": "II. Quality and knowledge",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5a003f6",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We choose substance over noise. Structured conversations, a shared knowledge base and mentoring by experienced professionals.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "d4f3809",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "2807a48",
+       "elType": "widget",
+       "settings": {
+        "title": "III. Real impact",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "c644bdd",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>The talent within the ummah is vast but scattered. Through project groups, hackathons and shark-tank sessions we turn ideas into working projects.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "fbecf9a",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "bc8419d",
+       "elType": "widget",
+       "settings": {
+        "title": "IV. An example for the youth",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "ba60e5e",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We want to be positive role models, so young people do not depend on the wrong examples. Members share their career ladder so others see what is possible.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "7b704ec",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "4a6d73e",
+       "elType": "widget",
+       "settings": {
+        "title": "V. What we do not do",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "af1ed0a",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>No addictive algorithm, no DM culture and no misuse of data. Money that flows through the community is reported transparently.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "d6b3d9c",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "30a2cc8",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "3d639a0",
+       "elType": "widget",
+       "settings": {
+        "text": "Join",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-primary",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

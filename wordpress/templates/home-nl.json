@@ -1,0 +1,1289 @@
+{
+ "version": "0.4",
+ "title": "Home",
+ "type": "page",
+ "content": [
+  {
+   "id": "51b0c6f",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-hero",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "a6c652f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "3c8c8df",
+       "elType": "widget",
+       "settings": {
+        "title": "Fase 1 — we leggen de basis",
+        "header_size": "p",
+        "_css_classes": "ub-badge",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "c5a753f",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "09a3aef",
+       "elType": "widget",
+       "settings": {
+        "title": "Samen bouwen aan een <em>sterke</em> ummah.",
+        "header_size": "h1",
+        "_css_classes": "ub-hero-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "9b60cc4",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "e0d5b6d",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Een eerlijk professioneel netwerk voor de ummah. Een plek om te leren, te bouwen en elkaar vooruit te helpen — binnen duidelijke islamitische grenzen, met focus op kwaliteit, kennis en echte impact.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "ceddf7c",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "0661880",
+       "elType": "widget",
+       "settings": {
+        "text": "Word lid",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-primary"
+       },
+       "elements": [],
+       "widgetType": "button"
+      },
+      {
+       "id": "942a2a4",
+       "elType": "widget",
+       "settings": {
+        "text": "Lees ons manifest",
+        "link": {
+         "url": "/manifest/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-ghost"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6adac5e",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "33cc1ba",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "0324adc",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 5,
+        "suffix": "",
+        "title": "fasen in onze roadmap",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "392fe85",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "1f21566",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 12,
+        "suffix": "",
+        "title": "thema's om in bij te dragen",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f1ec87c",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "da3371d",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 1,
+        "suffix": "",
+        "title": "gedeelde visie",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fa4907c",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "bbd2409",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "a57f635",
+       "elType": "widget",
+       "settings": {
+        "title": "Waarom Ummah Builders",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7551445",
+       "elType": "widget",
+       "settings": {
+        "title": "Het talent is er. Het is alleen <em>verspreid</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "dac22cd",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Binnen de ummah zitten ingenieurs, ondernemers, designers, onderzoekers en professionals met jaren ervaring. Wat ontbreekt is een plek waar dat talent elkaar vindt, kennis deelt en samen bouwt — en waar jongeren zien wat mogelijk is.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "ab683b4",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4df9301",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cba68ba",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "5f534fc",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-book-open",
+         "library": "fa-solid"
+        },
+        "title_text": "Leren",
+        "description_text": "Een gedeelde kennisbank, lezingen, masterclasses en micro-cursussen over financiën, technologie, ondernemerschap en ethiek.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "53eb0a8",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "f7d035b",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-tools",
+         "library": "fa-solid"
+        },
+        "title_text": "Bouwen",
+        "description_text": "Hackathons, sharktank-sessies en projectgroepen waar ideeën uitgroeien tot echte projecten, met feedback van mentoren.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "b94cf2a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "4374a79",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-hands-helping",
+         "library": "fa-solid"
+        },
+        "title_text": "Elkaar vooruithelpen",
+        "description_text": "Hulp bij werk, stages en professionele groei. Ervaren leden helpen starters op weg.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "49188c6",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "f5ece4b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "572193c",
+       "elType": "widget",
+       "settings": {
+        "title": "Een ladder voor elke fase",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "a36fc2d",
+       "elType": "widget",
+       "settings": {
+        "title": "Van eerste stap tot eigen project.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "c88f8d0",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ef77d7e",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper ub-ladder",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "5cb5156",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e0fec52",
+       "elType": "widget",
+       "settings": {
+        "title": "01",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "63b6c0c",
+       "elType": "widget",
+       "settings": {
+        "title": "Buddy",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "b14d6cc",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Elk nieuw lid krijgt een buddy, naar het voorbeeld van de Muhajirien en de Ansar, die helpt de weg te vinden in de community.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "8384906",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "6a08eeb",
+       "elType": "widget",
+       "settings": {
+        "title": "02",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "da03a73",
+       "elType": "widget",
+       "settings": {
+        "title": "Mentor",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "952e99d",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Starters en jongeren worden gekoppeld aan ervaren professionals voor begeleiding in carrière en ondernemerschap.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "af4c053",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "2754245",
+       "elType": "widget",
+       "settings": {
+        "title": "03",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "739be49",
+       "elType": "widget",
+       "settings": {
+        "title": "Sharktank",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7184b83",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Pitch je idee voor mentoren en ervaren ondernemers en krijg eerlijke feedback op je plan.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7d9e18a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "887a0da",
+       "elType": "widget",
+       "settings": {
+        "title": "04",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "e4296ac",
+       "elType": "widget",
+       "settings": {
+        "title": "Bouwen",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8f77c37",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Sterke projecten krijgen begeleiding, een team uit het netwerk en later toegang tot halal financiering.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d555b71",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cd4556d",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "6f2de97",
+       "elType": "widget",
+       "settings": {
+        "title": "Een voorbeeld voor de jeugd",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5d88379",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "63f0f5f",
+       "elType": "widget",
+       "settings": {
+        "title": "“We willen positieve rolmodellen zijn, zodat jongeren niet afhankelijk zijn van verkeerde voorbeelden.”",
+        "header_size": "p",
+        "_css_classes": "ub-meaning",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "dc769ae",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "9f2e5b6",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Leden delen hun carrièreladder: hoe ze begonnen, waar ze vastliepen en wat het netwerk voor hen betekende. Zo zien jongeren dat er een weg is.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7ff1fc1",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "104a317",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c11eff4",
+       "elType": "widget",
+       "settings": {
+        "title": "Onze grenzen",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "a1ba8e6",
+       "elType": "widget",
+       "settings": {
+        "title": "Wat we bewust <em>níet</em> doen.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "e53c3ee",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "acf7681",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "0318ef0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "25ec5de",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-ban",
+         "library": "fa-solid"
+        },
+        "title_text": "Geen verslavend algoritme",
+        "description_text": "Geen eindeloze feeds of kunstmatige prikkels. Je komt voor inhoud en mensen, niet om te blijven scrollen.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c0620e5",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "bda06a4",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-comment-slash",
+         "library": "fa-solid"
+        },
+        "title_text": "Geen DM-cultuur",
+        "description_text": "Gestructureerde gesprekken in themakanalen en projectgroepen in plaats van chaotische privéchats.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "178b4cc",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "465a623",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-user-shield",
+         "library": "fa-solid"
+        },
+        "title_text": "Geen misbruik van data",
+        "description_text": "Je gegevens worden niet verkocht of misbruikt. Wat er met geld gebeurt, rapporteren we transparant.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "09a124d",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "7b83e1a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "347b0c8",
+       "elType": "widget",
+       "settings": {
+        "title": "Lid worden",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "9f00571",
+       "elType": "widget",
+       "settings": {
+        "title": "In drie stappen erbij.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "6c8e203",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7320282",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "99e82c6",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "64ef2b5",
+       "elType": "widget",
+       "settings": {
+        "title": "1",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "2fa1965",
+       "elType": "widget",
+       "settings": {
+        "title": "Maak je profiel",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "9896a59",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Vertel wie je bent, wat je doet en in welke thema's je wil leren of bijdragen.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "9a74cb2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "31fe922",
+       "elType": "widget",
+       "settings": {
+        "title": "2",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "62b1070",
+       "elType": "widget",
+       "settings": {
+        "title": "Leer de community kennen",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "b869aec",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Je buddy helpt je op weg en stelt je voor aan mensen die bij jouw doelen passen.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "6b3e8a0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "028a71d",
+       "elType": "widget",
+       "settings": {
+        "title": "3",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "42bad2f",
+       "elType": "widget",
+       "settings": {
+        "title": "Bouw mee",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "76def0f",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Neem deel aan lezingen, hackathons en projectgroepen — of start er zelf een.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d315af3",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "f2e25cb",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c0e495f",
+       "elType": "widget",
+       "settings": {
+        "title": "Waar we staan",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "6110274",
+       "elType": "widget",
+       "settings": {
+        "title": "We bouwen stap voor stap.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "b10bd66",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We zitten in fase 1: het manifest, duidelijke regels en het kernteam. Daarna volgen de eerste website, kennisbank en evenementen, een communityplatform, een transparant halal betaalsysteem en slimme matching.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "e7a3c1f",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "797b3aa",
+       "elType": "widget",
+       "settings": {
+        "text": "Bekijk de roadmap",
+        "link": {
+         "url": "/roadmap/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-ghost",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "212f36c",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-cta",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "c66fd11",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "663cc38",
+       "elType": "widget",
+       "settings": {
+        "title": "De ummah bouwt.<br><em>Bouw je mee?</em>",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "d787393",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "0740ed9",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Maak je profiel aan en word deel van een netwerk dat leert, bouwt en elkaar vooruithelpt.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "0f06050",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "1a52c98",
+       "elType": "widget",
+       "settings": {
+        "text": "Maak je profiel aan",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-light",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

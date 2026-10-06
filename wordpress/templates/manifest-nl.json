@@ -1,0 +1,292 @@
+{
+ "version": "0.4",
+ "title": "Manifest",
+ "type": "page",
+ "content": [
+  {
+   "id": "5253b26",
+   "elType": "section",
+   "settings": {
+    "gap": "default",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e832a88",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "79d1a3f",
+       "elType": "widget",
+       "settings": {
+        "title": "Eerste versie — samen verder uit te werken",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "0ac1423",
+       "elType": "widget",
+       "settings": {
+        "title": "Het Ummah Builders <em>manifest</em>",
+        "header_size": "h1",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "747a7d2",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "e8508d1",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We willen een sterk en eerlijk professioneel netwerk bouwen voor de ummah: een plek waar mensen samenkomen om te leren, te bouwen en elkaar vooruit te helpen.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "1a7f3b0",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 40,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "d5837fe",
+       "elType": "widget",
+       "settings": {
+        "title": "I. Binnen islamitische grenzen",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "940b9e8",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Alles wat we doen gebeurt binnen duidelijke islamitische grenzen: in hoe we omgaan met elkaar, met geld en met data.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "f749d43",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "57381aa",
+       "elType": "widget",
+       "settings": {
+        "title": "II. Kwaliteit en kennis",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "fce93f9",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We kiezen voor inhoud boven lawaai. Gestructureerde gesprekken, een gedeelde kennisbank en mentoring door ervaren professionals.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "65af02d",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "dba645d",
+       "elType": "widget",
+       "settings": {
+        "title": "III. Echte impact",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1747978",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Talent binnen de ummah is groot maar verspreid. Via projectgroepen, hackathons en sharktank-sessies zetten we ideeën om in werkende projecten.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "3295976",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "d7f8361",
+       "elType": "widget",
+       "settings": {
+        "title": "IV. Een voorbeeld voor de jeugd",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "2e8650b",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We willen positieve rolmodellen zijn, zodat jongeren niet afhankelijk zijn van verkeerde voorbeelden. Leden delen hun carrièreladder zodat anderen zien wat mogelijk is.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "553a465",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "bdab54a",
+       "elType": "widget",
+       "settings": {
+        "title": "V. Wat we niet doen",
+        "header_size": "h2",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "704ca16",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Geen verslavend algoritme, geen DM-cultuur en geen misbruik van data. Geld dat door de community gaat, wordt transparant gerapporteerd.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "eee942b",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "ac2d893",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "d9e6584",
+       "elType": "widget",
+       "settings": {
+        "text": "Word lid",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-primary",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

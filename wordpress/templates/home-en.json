@@ -1,0 +1,1289 @@
+{
+ "version": "0.4",
+ "title": "Home (EN)",
+ "type": "page",
+ "content": [
+  {
+   "id": "a0e7986",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-hero",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cad8167",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "f0b8b0a",
+       "elType": "widget",
+       "settings": {
+        "title": "Phase 1 — laying the foundation",
+        "header_size": "p",
+        "_css_classes": "ub-badge",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5229854",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "5f2fd69",
+       "elType": "widget",
+       "settings": {
+        "title": "Building a <em>strong</em> ummah, together.",
+        "header_size": "h1",
+        "_css_classes": "ub-hero-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "3471049",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "0d808e4",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>An honest professional network for the ummah. A place to learn, to build and to help each other grow — within clear Islamic boundaries, focused on quality, knowledge and real impact.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "eca36c4",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "9889bb7",
+       "elType": "widget",
+       "settings": {
+        "text": "Join",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-primary"
+       },
+       "elements": [],
+       "widgetType": "button"
+      },
+      {
+       "id": "53781ee",
+       "elType": "widget",
+       "settings": {
+        "text": "Read our manifesto",
+        "link": {
+         "url": "/en/manifesto/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-ghost"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fc201f9",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cce82cd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "8a01df4",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 5,
+        "suffix": "",
+        "title": "phases in our roadmap",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "458e528",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "722896f",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 12,
+        "suffix": "",
+        "title": "themes to contribute to",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3730455",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d33dfb2",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 1,
+        "suffix": "",
+        "title": "shared vision",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "110fbee",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "20048f2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e81f55d",
+       "elType": "widget",
+       "settings": {
+        "title": "Why Ummah Builders",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "9928b5a",
+       "elType": "widget",
+       "settings": {
+        "title": "The talent is there. It is just <em>scattered</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "226a1e4",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>The ummah is full of engineers, entrepreneurs, designers, researchers and seasoned professionals. What is missing is a place where that talent finds each other, shares knowledge and builds together — and where young people see what is possible.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "284ad7a",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "db92ec2",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "05320ef",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "8183fd2",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-book-open",
+         "library": "fa-solid"
+        },
+        "title_text": "Learn",
+        "description_text": "A shared knowledge base, talks, masterclasses and micro-courses on finance, technology, entrepreneurship and ethics.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c591d2e",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d779dcf",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-tools",
+         "library": "fa-solid"
+        },
+        "title_text": "Build",
+        "description_text": "Hackathons, shark-tank sessions and project groups where ideas grow into real projects, with feedback from mentors.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "aadfe9f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "39b9e66",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-hands-helping",
+         "library": "fa-solid"
+        },
+        "title_text": "Help each other grow",
+        "description_text": "Support with jobs, internships and professional growth. Experienced members help newcomers find their way.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "762a02c",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b21aca7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "bed248f",
+       "elType": "widget",
+       "settings": {
+        "title": "A ladder for every stage",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "c12617a",
+       "elType": "widget",
+       "settings": {
+        "title": "From first step to your own project.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5f8ab2b",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "eef528f",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper ub-ladder",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "3076dc2",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e47c375",
+       "elType": "widget",
+       "settings": {
+        "title": "01",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "293ed1a",
+       "elType": "widget",
+       "settings": {
+        "title": "Buddy",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1ea38a3",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Every new member gets a buddy, following the example of the Muhajirun and the Ansar, to help them find their way in the community.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7bb5a00",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "fbd026a",
+       "elType": "widget",
+       "settings": {
+        "title": "02",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "687b3cb",
+       "elType": "widget",
+       "settings": {
+        "title": "Mentor",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "6e4f168",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Starters and young people are paired with experienced professionals for guidance in their career and business.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "b8871d8",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "68e1ed4",
+       "elType": "widget",
+       "settings": {
+        "title": "03",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7302c8c",
+       "elType": "widget",
+       "settings": {
+        "title": "Shark tank",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "a9ae982",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Pitch your idea to mentors and experienced entrepreneurs and get honest feedback on your plan.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "429b0cf",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "847eb4e",
+       "elType": "widget",
+       "settings": {
+        "title": "04",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "50286f5",
+       "elType": "widget",
+       "settings": {
+        "title": "Build",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "768fdb2",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Strong projects get guidance, a team from the network and, later on, access to halal funding.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5d5e3a0",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "31a7f82",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "0ddf1ec",
+       "elType": "widget",
+       "settings": {
+        "title": "An example for the youth",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8578f38",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "a33fece",
+       "elType": "widget",
+       "settings": {
+        "title": "“We want to be positive role models, so young people do not depend on the wrong examples.”",
+        "header_size": "p",
+        "_css_classes": "ub-meaning",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8b18a9b",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "e9eef66",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Members share their career ladder: how they started, where they got stuck and what the network meant to them. That way young people see there is a path.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "eb6fe4c",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "d541c33",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "cad1adb",
+       "elType": "widget",
+       "settings": {
+        "title": "Our boundaries",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "2f13c4d",
+       "elType": "widget",
+       "settings": {
+        "title": "What we deliberately do <em>not</em> do.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "87a7c47",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a50ecb1",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cba97ff",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "9214725",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-ban",
+         "library": "fa-solid"
+        },
+        "title_text": "No addictive algorithm",
+        "description_text": "No endless feeds or artificial triggers. You come for substance and people, not to keep scrolling.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "f1ce2e3",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "5d460e7",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-comment-slash",
+         "library": "fa-solid"
+        },
+        "title_text": "No DM culture",
+        "description_text": "Structured conversations in theme channels and project groups instead of chaotic private chats.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3ff3fd7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "2104624",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-user-shield",
+         "library": "fa-solid"
+        },
+        "title_text": "No misuse of data",
+        "description_text": "Your data is not sold or misused. We report transparently on what happens with money.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d60eaea",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "7774df1",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "cba0ebd",
+       "elType": "widget",
+       "settings": {
+        "title": "Becoming a member",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "a915ffb",
+       "elType": "widget",
+       "settings": {
+        "title": "Join in three steps.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "2f2ab94",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "8a8f4a6",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-paper",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b7c6894",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "957e1ee",
+       "elType": "widget",
+       "settings": {
+        "title": "1",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "426eb2a",
+       "elType": "widget",
+       "settings": {
+        "title": "Create your profile",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "f442f1b",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Tell us who you are, what you do and which themes you want to learn about or contribute to.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c5d6741",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "ba07349",
+       "elType": "widget",
+       "settings": {
+        "title": "2",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "6b86e6f",
+       "elType": "widget",
+       "settings": {
+        "title": "Get to know the community",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "17d2aff",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Your buddy helps you get started and introduces you to people who match your goals.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "ed24979",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "ba5e70f",
+       "elType": "widget",
+       "settings": {
+        "title": "3",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8fa148f",
+       "elType": "widget",
+       "settings": {
+        "title": "Build with us",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7fec1aa",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Join talks, hackathons and project groups — or start one yourself.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "232f373",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "389a730",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "1303728",
+       "elType": "widget",
+       "settings": {
+        "title": "Where we are",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "bc96301",
+       "elType": "widget",
+       "settings": {
+        "title": "We are building step by step.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "77d8a34",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>We are in phase 1: the manifesto, clear rules and the core team. Next come the first website, knowledge base and events, a community platform, a transparent halal payment system and smart matching.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "076d498",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 30,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "72a8c08",
+       "elType": "widget",
+       "settings": {
+        "text": "View the roadmap",
+        "link": {
+         "url": "/en/roadmap/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-ghost",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d8538f9",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-cta",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "ded085b",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "84913ed",
+       "elType": "widget",
+       "settings": {
+        "title": "The ummah is building.<br><em>Will you build with us?</em>",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1730683",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "a983f04",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Create your profile and become part of a network that learns, builds and helps each other grow.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "3e1bbb1",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "59a1735",
+       "elType": "widget",
+       "settings": {
+        "text": "Create your profile",
+        "link": {
+         "url": "#ub-join",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-light",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}
