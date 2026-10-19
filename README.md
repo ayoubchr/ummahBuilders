@@ -15,7 +15,6 @@ Plain HTML, CSS and JavaScript. No build step, no WordPress.
 ## Viewing locally
 
 ```bash
-cd site
 python -m http.server 8100
 ```
 
@@ -30,11 +29,11 @@ texts, should be checked by a native speaker.
 ## Putting it online (free, Cloudflare Pages)
 
 ```bash
-npx wrangler pages deploy site --project-name ummahbuilders
+npx wrangler pages deploy . --project-name ummahbuilders
 ```
 
 The first time, `wrangler` opens your browser to log in to Cloudflare (free account). The site
-then goes live at `https://ummahbuilders.pages.dev`. Without the command line: drag the `site`
+then goes live at `https://ummahbuilders.pages.dev`. Without the command line: drag this
 folder onto https://app.netlify.com/drop.
 
 ## Photos
