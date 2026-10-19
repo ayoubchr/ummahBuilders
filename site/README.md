@@ -9,6 +9,8 @@ Plain HTML, CSS and JavaScript. No build step, no WordPress.
 | `styles.css` | Design (colours at the top under `:root`) |
 | `main.js` | Language switch (remembered, also via `?lang=en`), RTL for Arabic, mobile menu |
 | `assets/img/` | Photos (no people or animals) |
+| `assets/logo.png`, `assets/logo-mark.png` | Full logo (footer) and tree only (header), transparent background |
+| `assets/favicon*`, `assets/apple-touch-icon.png` | Favicons for browser tabs and phone home screens |
 
 ## Viewing locally
 
