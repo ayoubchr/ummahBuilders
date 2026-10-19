@@ -22,6 +22,7 @@ Text Domain:  ummah-builders
 	--ub-teal-dark: #0a4d42;
 	--ub-gold: #b8914a;
 	--ub-gold-soft: #f3ead6;
+	--ub-sand: #f3ede1;
 	--ub-night: #0d1614;
 
 	--ub-serif: "Cormorant Garamond", Georgia, serif;
@@ -61,10 +62,9 @@ a:hover { color: var(--ub-teal-dark); }
 	position: sticky;
 	top: 0;
 	z-index: 100;
-	background: rgba(250, 247, 240, 0.92);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
+	background: #ffffff;
 	border-bottom: 1px solid var(--ub-line);
+	box-shadow: 0 1px 12px rgba(20, 32, 29, 0.04);
 }
 .ub-header__inner {
 	max-width: var(--ub-max);
@@ -135,7 +135,7 @@ a:hover { color: var(--ub-teal-dark); }
 	color: var(--ub-muted);
 	text-decoration: none;
 }
-.ub-lang .current-lang a { background: var(--ub-paper); color: var(--ub-ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+.ub-lang .current-lang a { background: var(--ub-cream); color: var(--ub-ink); box-shadow: 0 1px 2px rgba(0,0,0,.06); }
 
 .ub-menu-toggle {
 	display: none;
@@ -154,7 +154,7 @@ a:hover { color: var(--ub-teal-dark); }
 		top: 100%;
 		left: 0;
 		right: 0;
-		background: var(--ub-cream);
+		background: #ffffff;
 		border-bottom: 1px solid var(--ub-line);
 		padding: 16px 20px 20px;
 	}
@@ -197,10 +197,10 @@ a:hover { color: var(--ub-teal-dark); }
 .ub-btn-ghost .elementor-button {
 	background: transparent;
 	color: var(--ub-ink);
-	border: 1px solid var(--ub-line);
+	border: 1.5px solid var(--ub-ink);
 }
 .ub-btn--ghost:hover,
-.ub-btn-ghost .elementor-button:hover { border-color: var(--ub-ink); color: var(--ub-ink); }
+.ub-btn-ghost .elementor-button:hover { background: var(--ub-ink); border-color: var(--ub-ink); color: #fff; }
 .ub-btn-light .elementor-button { background: #fff; color: var(--ub-ink); border: 1px solid #fff; }
 .ub-btn-light .elementor-button:hover { background: var(--ub-gold-soft); }
 .ub-btn--sm { padding: 10px 18px; font-size: 11px; }
@@ -211,8 +211,10 @@ a:hover { color: var(--ub-teal-dark); }
 /* Intro block directly followed by the section it introduces */
 .ub-section--head { padding-bottom: 0; }
 .ub-section--head + .ub-section--tight { padding-top: 30px; }
-.ub-bg-paper { background: var(--ub-paper); }
+.ub-bg-paper,
 .ub-bg-cream { background: var(--ub-cream); }
+.ub-bg-sand { background: var(--ub-sand); }
+/* (cream defined above) */
 .ub-bg-night { background: var(--ub-night); }
 .ub-bg-night .elementor-heading-title { color: #fff; }
 .ub-bg-night .elementor-widget-text-editor { color: #a9b5b1; }
@@ -233,23 +235,63 @@ a:hover { color: var(--ub-teal-dark); }
 	color: var(--ub-gold);
 }
 
+/* Opening quote (first thing on the page) */
+.ub-opening-section {
+	padding: 110px 20px 90px;
+	background:
+		radial-gradient(1000px 420px at 50% -10%, rgba(184,145,74,.16), transparent 70%),
+		var(--ub-cream);
+	border-bottom: 1px solid var(--ub-line);
+}
+.ub-opening .elementor-heading-title {
+	font-family: var(--ub-serif);
+	font-size: clamp(26px, 3.4vw, 42px);
+	font-style: italic;
+	font-weight: 400;
+	line-height: 1.35;
+	color: var(--ub-ink);
+}
+.ub-opening-source .elementor-heading-title {
+	font-family: var(--ub-sans);
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.6;
+	color: var(--ub-ink-soft);
+}
+
 /* Hero */
 .ub-hero {
-	position: relative;
-	padding: 140px 20px 120px;
-	background:
-		radial-gradient(1200px 500px at 50% -10%, rgba(184,145,74,.14), transparent 70%),
-		var(--ub-cream);
-	text-align: center;
+	padding: 100px 20px;
+	background: var(--ub-cream);
 }
 .ub-hero-title .elementor-heading-title {
-	font-size: clamp(44px, 7vw, 92px);
+	font-size: clamp(40px, 5.6vw, 76px);
 	font-weight: 400;
 	letter-spacing: -0.01em;
 }
 .ub-hero-title em { color: var(--ub-gold); font-style: italic; }
-.ub-hero .elementor-widget-text-editor { font-size: 19px; max-width: 640px; margin: 0 auto; }
-.ub-hero .elementor-widget-button { display: inline-block; width: auto; margin: 0 6px 12px; }
+.ub-hero .elementor-widget-text-editor { font-size: 19px; color: var(--ub-ink-soft); }
+.ub-hero .elementor-widget-button { display: inline-block; width: auto; margin: 0 10px 12px 0; }
+[dir="rtl"] .ub-hero .elementor-widget-button { margin: 0 0 12px 10px; }
+
+/* Photos (image widget with class ub-photo) */
+.ub-photo img {
+	width: 100%;
+	aspect-ratio: 4 / 5;
+	object-fit: cover;
+	border-radius: 28px;
+	box-shadow: 0 30px 60px -35px rgba(20, 32, 29, 0.45);
+}
+@media (min-width: 1025px) {
+	.ub-sticky > .elementor-widget-wrap,
+	.ub-sticky > .elementor-column-wrap > .elementor-widget-wrap { position: sticky; top: 100px; }
+}
+
+/* Text on a photo background */
+.ub-on-photo { padding: 140px 20px; }
+.ub-on-photo .elementor-heading-title { color: #fff; }
+.ub-on-photo .ub-eyebrow .elementor-heading-title { color: #e2c48a; }
+.ub-on-photo .elementor-widget-text-editor { color: #e8e2d6; }
 
 .ub-badge .elementor-heading-title {
 	display: inline-flex;
@@ -345,7 +387,7 @@ a:hover { color: var(--ub-teal-dark); }
 
 /* Ladder: horizontal rule linking the steps on desktop */
 @media (min-width: 1025px) {
-	.ub-ladder .elementor-column + .elementor-column .ub-step-number .elementor-heading-title::before {
+	html:not([dir="rtl"]) .ub-ladder .elementor-column + .elementor-column .ub-step-number .elementor-heading-title::before {
 		content: "";
 		position: absolute;
 		margin: 28px 0 0 -40px;
@@ -368,9 +410,9 @@ a:hover { color: var(--ub-teal-dark); }
 		var(--ub-night);
 	border-radius: 36px;
 	margin: 0 20px 90px;
-	padding: 110px 20px;
-	text-align: center;
+	padding: 80px 40px;
 }
+.ub-cta .ub-photo img { aspect-ratio: 1 / 1; box-shadow: none; }
 .ub-cta .elementor-heading-title { color: #fff; }
 .ub-cta em { color: var(--ub-gold); font-style: italic; }
 .ub-cta .elementor-widget-text-editor { color: #a9b5b1; }
@@ -414,3 +456,31 @@ a:hover { color: var(--ub-teal-dark); }
 @media (prefers-reduced-motion: reduce) {
 	* { transition: none !important; animation: none !important; }
 }
+
+/* ---------- Arabic (RTL) ---------- */
+/* Letter-spacing and uppercase break Arabic script, so they are switched off. */
+html[lang^="ar"] body,
+html[lang^="ar"] .elementor-widget-text-editor,
+html[lang^="ar"] .elementor-icon-box-description {
+	font-family: "Noto Sans Arabic", var(--ub-sans);
+}
+html[lang^="ar"] .elementor-heading-title,
+html[lang^="ar"] .elementor-icon-box-title,
+html[lang^="ar"] .elementor-counter-number-wrapper {
+	font-family: "Noto Naskh Arabic", var(--ub-serif);
+}
+html[lang^="ar"] .ub-eyebrow .elementor-heading-title,
+html[lang^="ar"] .ub-badge .elementor-heading-title,
+html[lang^="ar"] .ub-opening-source .elementor-heading-title,
+html[lang^="ar"] .elementor-counter-title,
+html[lang^="ar"] .elementor-button,
+html[lang^="ar"] .ub-nav a {
+	font-family: "Noto Sans Arabic", var(--ub-sans);
+	letter-spacing: 0;
+	text-transform: none;
+}
+html[lang^="ar"] .ub-eyebrow .elementor-heading-title { font-size: 14px; }
+html[lang^="ar"] .ub-opening .elementor-heading-title,
+html[lang^="ar"] .ub-meaning .elementor-heading-title { font-style: normal; line-height: 1.7; }
+html[lang^="ar"] em { font-style: normal; }
+html[lang^="ar"] .elementor-widget-text-editor { font-size: 18px; line-height: 1.9; }

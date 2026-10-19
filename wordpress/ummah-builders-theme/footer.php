@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<span class="ub-brand__mark" aria-hidden="true">م</span>
 			<span class="ub-brand__name">Ummah<span>Builders</span></span>
 		</a>
-		<nav aria-label="<?php echo esc_attr( ub_t( 'Footermenu', 'Footer menu' ) ); ?>">
+		<nav aria-label="<?php echo esc_attr( ub_t( array( 'nl' => 'Footermenu', 'en' => 'Footer menu', 'fr' => 'Menu de pied de page', 'ar' => 'قائمة التذييل' ) ) ); ?>">
 			<?php
 			wp_nav_menu(
 				array(

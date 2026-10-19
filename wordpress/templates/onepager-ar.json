@@ -1,0 +1,1443 @@
+{
+ "version": "0.4",
+ "title": "Ummah Builders – الرئيسية",
+ "type": "page",
+ "content": [
+  {
+   "id": "9850a55",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-opening-section",
+    "content_width": {
+     "unit": "px",
+     "size": 900,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "04c0985",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "bba7a3f",
+       "elType": "widget",
+       "settings": {
+        "title": "«إنّا كنّا أذلَّ قومٍ فأعزَّنا اللهُ بالإسلام، فمهما نطلبِ العزّةَ بغير ما أعزَّنا اللهُ به أذلَّنا الله.»",
+        "header_size": "p",
+        "_css_classes": "ub-opening",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "4d209d0",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "d0c741c",
+       "elType": "widget",
+       "settings": {
+        "title": "المصدر: المستدرك على الصحيحين ٢٠٧ · الدرجة: صحيح، صحّحه الألباني",
+        "header_size": "p",
+        "_css_classes": "ub-opening-source",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b5e4125",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-hero",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "30c5e30",
+     "elType": "column",
+     "settings": {
+      "_column_size": 55,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "ab3f852",
+       "elType": "widget",
+       "settings": {
+        "title": "نبني معًا أمّةً <em>قويّة</em>.",
+        "header_size": "h1",
+        "_css_classes": "ub-hero-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8b4183f",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "5d67f5a",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>شبكة مهنية صادقة للأمّة. مكانٌ للتعلّم والبناء والتعاون على التقدّم — ضمن حدود إسلامية واضحة، مع التركيز على الجودة والمعرفة والأثر الحقيقي.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "553c813",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "eef6f17",
+       "elType": "widget",
+       "settings": {
+        "text": "اكتشف رؤيتنا",
+        "link": {
+         "url": "#visie",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-primary"
+       },
+       "elements": [],
+       "widgetType": "button"
+      },
+      {
+       "id": "32df585",
+       "elType": "widget",
+       "settings": {
+        "text": "اقرأ بياننا",
+        "link": {
+         "url": "#manifest",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "_css_classes": "ub-btn-ghost"
+       },
+       "elements": [],
+       "widgetType": "button"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "aaf1fcd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 45,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d4197e8",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "/wp-content/themes/ummah-builders/assets/img/arches.jpg",
+         "id": "",
+         "alt": "أقواس بزخارف هندسية"
+        },
+        "image_size": "full",
+        "_css_classes": "ub-photo"
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "89e2e3d",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-sand",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "f362acd",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "5d11c17",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 3,
+        "title": "ركائز",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "539b29f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "3094452",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 12,
+        "title": "مجالًا",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "b106894",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e3860d6",
+       "elType": "widget",
+       "settings": {
+        "starting_number": 0,
+        "ending_number": 1,
+        "title": "رؤية مشتركة",
+        "_css_classes": "ub-stat"
+       },
+       "elements": [],
+       "widgetType": "counter"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e36b732",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "_element_id": "visie",
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "87880dc",
+     "elType": "column",
+     "settings": {
+      "_column_size": 45,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "4ca38a9",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "/wp-content/themes/ummah-builders/assets/img/sprout.jpg",
+         "id": "",
+         "alt": "براعم صغيرة تنبت من التربة"
+        },
+        "image_size": "full",
+        "_css_classes": "ub-photo"
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fbb26ae",
+     "elType": "column",
+     "settings": {
+      "_column_size": 55,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "f26b598",
+       "elType": "widget",
+       "settings": {
+        "title": "لماذا Ummah Builders",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "d63c113",
+       "elType": "widget",
+       "settings": {
+        "title": "المواهب موجودة، لكنها <em>متفرّقة</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "f020e93",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>في الأمّة مهندسون ورواد أعمال ومصممون وباحثون ومهنيون ذوو خبرة طويلة. ما ينقصنا هو مكانٌ تلتقي فيه هذه المواهب، وتتبادل المعرفة، وتبني معًا — ويرى فيه الشباب ما هو ممكن.</p>",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "f6d103e",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-section--head ub-bg-sand",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "3b3b31f",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "52197eb",
+       "elType": "widget",
+       "settings": {
+        "title": "ما نؤمن به",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5ed9700",
+       "elType": "widget",
+       "settings": {
+        "title": "التعلّم والبناء و<em>التعاون</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "bfaee6c",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-sand",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "5820b08",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c4105d9",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-book-open",
+         "library": "fa-solid"
+        },
+        "title_text": "التعلّم",
+        "description_text": "قاعدة معرفة مشتركة، ومحاضرات، ودورات متقدمة وأخرى قصيرة في المالية والتقنية وريادة الأعمال والأخلاق.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "68e1614",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "bfe36e1",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-tools",
+         "library": "fa-solid"
+        },
+        "title_text": "البناء",
+        "description_text": "هاكاثونات وجلسات «شارك تانك» ومجموعات مشاريع تتحوّل فيها الأفكار إلى مشاريع حقيقية، مع توجيه من المرشدين.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "7ad71f7",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d3aaa25",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-hands-helping",
+         "library": "fa-solid"
+        },
+        "title_text": "التعاون على التقدّم",
+        "description_text": "دعم في العمل والتدريب والتطوّر المهني. الأعضاء ذوو الخبرة يساعدون المبتدئين على شقّ طريقهم.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "f9e96ae",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-section--head ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "919bc08",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "90a8278",
+       "elType": "widget",
+       "settings": {
+        "title": "سُلّم لكل مرحلة",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "3cfbc06",
+       "elType": "widget",
+       "settings": {
+        "title": "من الخطوة الأولى إلى مشروعك الخاص.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "0a79850",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-cream ub-ladder",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e9ffb74",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "4542da0",
+       "elType": "widget",
+       "settings": {
+        "title": "01",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "947fc15",
+       "elType": "widget",
+       "settings": {
+        "title": "الرفيق",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "ee886e9",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>يحصل كل عضو جديد على رفيق، على مثال المهاجرين والأنصار، يساعده على إيجاد طريقه.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "c1df778",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "851964b",
+       "elType": "widget",
+       "settings": {
+        "title": "02",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "aab2afd",
+       "elType": "widget",
+       "settings": {
+        "title": "المرشد",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5fccde8",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>يُربط المبتدئون والشباب بمهنيين ذوي خبرة لإرشادهم في مسيرتهم المهنية وريادة الأعمال.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "3699faf",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "a89d5a9",
+       "elType": "widget",
+       "settings": {
+        "title": "03",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "5f756b0",
+       "elType": "widget",
+       "settings": {
+        "title": "شارك تانك",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "f8e6d5b",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>اعرض فكرتك على مرشدين ورواد أعمال ذوي خبرة واحصل على رأي صادق في خطتك.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "fde8947",
+     "elType": "column",
+     "settings": {
+      "_column_size": 25,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "d260e20",
+       "elType": "widget",
+       "settings": {
+        "title": "04",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7e0127e",
+       "elType": "widget",
+       "settings": {
+        "title": "البناء",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "1343cca",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>تحظى المشاريع القوية بالتوجيه وبفريق من داخل الشبكة.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5f1fa08",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-on-photo",
+    "content_width": {
+     "unit": "px",
+     "size": 860,
+     "sizes": []
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "/wp-content/themes/ummah-builders/assets/img/dunes.jpg",
+     "id": ""
+    },
+    "background_position": "center center",
+    "background_size": "cover",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "#0d1614",
+    "background_overlay_opacity": {
+     "unit": "px",
+     "size": 0.62,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "68bfeca",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "01706e5",
+       "elType": "widget",
+       "settings": {
+        "title": "قدوة للشباب",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "bf8ba04",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 10,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "69e4cf4",
+       "elType": "widget",
+       "settings": {
+        "title": "«نريد أن نكون قدوةً إيجابية، حتى لا يعتمد الشباب على أمثلة خاطئة.»",
+        "header_size": "p",
+        "_css_classes": "ub-meaning",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "285a75c",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "4911ea5",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>يشارك الأعضاء مسيرتهم المهنية: كيف بدأوا، وأين تعثّروا، وماذا قدّمت لهم الشبكة.</p>",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3a42d6f",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-sand",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "_element_id": "manifest"
+   },
+   "elements": [
+    {
+     "id": "09a6a22",
+     "elType": "column",
+     "settings": {
+      "_column_size": 58,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "e025e98",
+       "elType": "widget",
+       "settings": {
+        "title": "بياننا",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "07cabce",
+       "elType": "widget",
+       "settings": {
+        "title": "ما الذي <em>نمثّله</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "da9fd96",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>نسخة أولى سنطوّرها مع المجتمع.</p>",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "2c9e768",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 16,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "e3c04ec",
+       "elType": "widget",
+       "settings": {
+        "title": "01",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "7d79682",
+       "elType": "widget",
+       "settings": {
+        "title": "ضمن حدود إسلامية",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "8624c66",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>كل ما نقوم به يتمّ ضمن حدود إسلامية واضحة: في تعاملنا مع بعضنا، ومع المال، ومع البيانات.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "ae83cc0",
+       "elType": "widget",
+       "settings": {
+        "title": "02",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "0aa98a9",
+       "elType": "widget",
+       "settings": {
+        "title": "الجودة والمعرفة",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "dd82fcf",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>نختار المضمون على الضجيج: نقاشات منظّمة، وقاعدة معرفة مشتركة، وإرشاد من مهنيين ذوي خبرة.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "1a395c3",
+       "elType": "widget",
+       "settings": {
+        "title": "03",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "f43bd90",
+       "elType": "widget",
+       "settings": {
+        "title": "أثر حقيقي",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "b95e63d",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>من خلال مجموعات المشاريع والهاكاثونات وجلسات «شارك تانك» نحوّل الأفكار إلى مشاريع قائمة.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      },
+      {
+       "id": "7abd351",
+       "elType": "widget",
+       "settings": {
+        "title": "04",
+        "header_size": "p",
+        "_css_classes": "ub-step-number"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "08425cb",
+       "elType": "widget",
+       "settings": {
+        "title": "قدوة للشباب",
+        "header_size": "h3",
+        "_css_classes": "ub-step-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "fa643b9",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>نريد أن نكون قدوةً إيجابية وأن نُظهر الطرق الممكنة.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "4626272",
+     "elType": "column",
+     "settings": {
+      "_column_size": 42,
+      "_inline_size": null,
+      "css_classes": "ub-sticky"
+     },
+     "elements": [
+      {
+       "id": "d12a617",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "/wp-content/themes/ummah-builders/assets/img/light.jpg",
+         "id": "",
+         "alt": "ضوء يدخل من نافذة في قبو مقوّس"
+        },
+        "image_size": "full",
+        "_css_classes": "ub-photo"
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9cb1e12",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-section--head ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "fff9dac",
+     "elType": "column",
+     "settings": {
+      "_column_size": 100,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "ea5bd9b",
+       "elType": "widget",
+       "settings": {
+        "title": "حدودنا",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "d8e360b",
+       "elType": "widget",
+       "settings": {
+        "title": "ما <em>لا</em> نفعله عن قصد.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "center"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c71f8f6",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section--tight ub-bg-night",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "8082e53",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "0d0ab21",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-ban",
+         "library": "fa-solid"
+        },
+        "title_text": "لا خوارزميات تُسبّب الإدمان",
+        "description_text": "لا تدفّق لا ينتهي ولا محفّزات مصطنعة. تأتي من أجل المضمون والناس، لا من أجل التمرير المتواصل.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "8f84f12",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "fe13382",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-comment-slash",
+         "library": "fa-solid"
+        },
+        "title_text": "لا لثقافة الرسائل الخاصة",
+        "description_text": "نقاشات منظّمة في قنوات موضوعية ومجموعات مشاريع بدل المحادثات الخاصة الفوضوية.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "213b311",
+     "elType": "column",
+     "settings": {
+      "_column_size": 33.333,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "74f4379",
+       "elType": "widget",
+       "settings": {
+        "selected_icon": {
+         "value": "fas fa-user-shield",
+         "library": "fa-solid"
+        },
+        "title_text": "لا إساءة لاستخدام البيانات",
+        "description_text": "لا تُباع بياناتك ولا يُساء استخدامها. ونُبلغ بشفافية عن كيفية استخدام الأموال.",
+        "position": "top",
+        "title_size": "h3",
+        "_css_classes": "ub-card"
+       },
+       "elements": [],
+       "widgetType": "icon-box"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e77ff23",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-section ub-bg-cream",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "_element_id": "roadmap",
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "de9d744",
+     "elType": "column",
+     "settings": {
+      "_column_size": 55,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "0711623",
+       "elType": "widget",
+       "settings": {
+        "title": "قريبًا",
+        "header_size": "p",
+        "_css_classes": "ub-badge"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "aad2775",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "76081bd",
+       "elType": "widget",
+       "settings": {
+        "title": "خارطة الطريق",
+        "header_size": "p",
+        "_css_classes": "ub-eyebrow",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "d6d994b",
+       "elType": "widget",
+       "settings": {
+        "title": "المزيد <em>قريبًا</em>.",
+        "header_size": "h2",
+        "_css_classes": "ub-title",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "464ce14",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>نعمل على خطتنا للسنوات القادمة، وسنشاركها هنا فور جاهزيتها.</p>",
+        "align": "start"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "740c016",
+     "elType": "column",
+     "settings": {
+      "_column_size": 45,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "c0d6c1a",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "/wp-content/themes/ummah-builders/assets/img/library.jpg",
+         "id": "",
+         "alt": "ممر مكتبة تصطفّ فيه رفوف الكتب"
+        },
+        "image_size": "full",
+        "_css_classes": "ub-photo"
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1b55967",
+   "elType": "section",
+   "settings": {
+    "gap": "wide",
+    "css_classes": "ub-cta",
+    "content_width": {
+     "unit": "px",
+     "size": 1140,
+     "sizes": []
+    },
+    "content_position": "middle"
+   },
+   "elements": [
+    {
+     "id": "d635bb0",
+     "elType": "column",
+     "settings": {
+      "_column_size": 40,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "62eca0a",
+       "elType": "widget",
+       "settings": {
+        "image": {
+         "url": "/wp-content/themes/ummah-builders/assets/img/workspace.jpg",
+         "id": "",
+         "alt": "مساحة عمل بها نباتات وعوارض خشبية"
+        },
+        "image_size": "full",
+        "_css_classes": "ub-photo"
+       },
+       "elements": [],
+       "widgetType": "image"
+      }
+     ],
+     "isInner": false
+    },
+    {
+     "id": "8fcc71a",
+     "elType": "column",
+     "settings": {
+      "_column_size": 60,
+      "_inline_size": null
+     },
+     "elements": [
+      {
+       "id": "dd6afb8",
+       "elType": "widget",
+       "settings": {
+        "title": "الأمّة تبني.<br><em>وقريبًا معك.</em>",
+        "header_size": "h2",
+        "_css_classes": "ub-title"
+       },
+       "elements": [],
+       "widgetType": "heading"
+      },
+      {
+       "id": "55d2756",
+       "elType": "widget",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        }
+       },
+       "elements": [],
+       "widgetType": "spacer"
+      },
+      {
+       "id": "7523dcb",
+       "elType": "widget",
+       "settings": {
+        "editor": "<p>Ummah Builders قيد الإنشاء. عُد قريبًا لمزيد من المعلومات.</p>"
+       },
+       "elements": [],
+       "widgetType": "text-editor"
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  }
+ ],
+ "page_settings": {
+  "template": "elementor_header_footer",
+  "hide_title": "yes"
+ }
+}

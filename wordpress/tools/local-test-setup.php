@@ -2,94 +2,124 @@
 // Setup for the local Docker WordPress in wordpress/local (templates mounted at /templates).
 // Run: docker compose run --rm cli eval-file /tools/local-test-setup.php
 // Safe to run again: existing pages are updated, not duplicated. Not part of the theme.
+
 update_option( 'elementor_disable_color_schemes', 'yes' );
 update_option( 'elementor_disable_typography_schemes', 'yes' );
 
-$pages = array(
-	array( 'home-nl', 'Home', 'home' ),
-	array( 'manifest-nl', 'Manifest', 'manifest' ),
-	array( 'roadmap-nl', 'Roadmap', 'roadmap' ),
-	array( 'home-en', 'Home', 'home-en' ),
-	array( 'manifest-en', 'Manifesto', 'manifesto' ),
-	array( 'roadmap-en', 'Roadmap', 'our-roadmap' ),
+// One page per language: the informative one-pager.
+$languages = array(
+	'nl' => array( 'name' => 'Nederlands', 'locale' => 'nl_NL', 'rtl' => 0, 'flag' => 'be', 'title' => 'Home', 'slug' => 'home' ),
+	'en' => array( 'name' => 'English', 'locale' => 'en_GB', 'rtl' => 0, 'flag' => 'gb', 'title' => 'Home', 'slug' => 'home-en' ),
+	'fr' => array( 'name' => 'Français', 'locale' => 'fr_FR', 'rtl' => 0, 'flag' => 'fr', 'title' => 'Accueil', 'slug' => 'accueil' ),
+	'ar' => array( 'name' => 'العربية', 'locale' => 'ar', 'rtl' => 1, 'flag' => 'arab', 'title' => 'الرئيسية', 'slug' => 'home-ar' ),
 );
+
+// Menu labels per language; links are anchors on the one-pager.
+$menu_items = array(
+	'nl' => array( '#visie' => 'Visie', '#manifest' => 'Manifest', '#roadmap' => 'Roadmap' ),
+	'en' => array( '#visie' => 'Vision', '#manifest' => 'Manifesto', '#roadmap' => 'Roadmap' ),
+	'fr' => array( '#visie' => 'Vision', '#manifest' => 'Manifeste', '#roadmap' => 'Feuille de route' ),
+	'ar' => array( '#visie' => 'الرؤية', '#manifest' => 'البيان', '#roadmap' => 'خارطة الطريق' ),
+);
+
+// Remove pages from the earlier multi-page version.
+foreach ( array( 'manifest', 'manifesto', 'roadmap', 'our-roadmap', 'sample-page' ) as $old_slug ) {
+	$old = get_page_by_path( $old_slug );
+	if ( $old ) {
+		wp_delete_post( $old->ID, true );
+	}
+}
+$hello = get_page_by_path( 'hello-world', OBJECT, 'post' );
+if ( $hello ) {
+	wp_delete_post( $hello->ID, true );
+}
+
 $ids = array();
-foreach ( $pages as $p ) {
-	$tpl = json_decode( file_get_contents( "/templates/{$p[0]}.json" ), true );
-	$existing = get_page_by_path( $p[2] );
-	$id = $existing ? $existing->ID : wp_insert_post( array( 'post_type' => 'page', 'post_status' => 'publish', 'post_title' => $p[1], 'post_name' => $p[2] ) );
+foreach ( $languages as $lang => $info ) {
+	$tpl      = json_decode( file_get_contents( "/templates/onepager-$lang.json" ), true );
+	$existing = get_page_by_path( $info['slug'] );
+	$id       = $existing ? $existing->ID : wp_insert_post(
+		array(
+			'post_type'   => 'page',
+			'post_status' => 'publish',
+			'post_title'  => $info['title'],
+			'post_name'   => $info['slug'],
+		)
+	);
+	wp_update_post( array( 'ID' => $id, 'post_title' => $info['title'] ) );
 	update_post_meta( $id, '_elementor_edit_mode', 'builder' );
 	update_post_meta( $id, '_elementor_template_type', 'wp-page' );
 	update_post_meta( $id, '_wp_page_template', 'elementor_header_footer' );
 	update_post_meta( $id, '_elementor_data', wp_slash( wp_json_encode( $tpl['content'] ) ) );
 	update_post_meta( $id, '_elementor_page_settings', $tpl['page_settings'] );
-	$ids[ $p[0] ] = $id;
-	echo "{$p[0]} => $id\n";
+	$ids[ $lang ] = $id;
+	echo "onepager-$lang => $id\n";
 }
 update_option( 'show_on_front', 'page' );
-update_option( 'page_on_front', $ids['home-nl'] );
+update_option( 'page_on_front', $ids['nl'] );
 
-if ( ! wp_get_nav_menu_object( 'Hoofdmenu NL' ) ) {
-$menu = wp_create_nav_menu( 'Hoofdmenu NL' );
-wp_update_nav_menu_item( $menu, 0, array( 'menu-item-object-id' => $ids['manifest-nl'], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) );
-wp_update_nav_menu_item( $menu, 0, array( 'menu-item-object-id' => $ids['roadmap-nl'], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) );
-set_theme_mod( 'nav_menu_locations', array( 'ub-primary' => $menu ) );
-}
-
-// Polylang: Dutch (default, no prefix) and English under /en/.
 if ( function_exists( 'PLL' ) ) {
 	$model = PLL()->model;
-	if ( ! $model->get_language( 'nl' ) ) {
-		$model->add_language( array( 'name' => 'Nederlands', 'slug' => 'nl', 'locale' => 'nl_NL', 'rtl' => 0, 'term_group' => 0, 'flag' => 'be' ) );
+	$order = 0;
+	foreach ( $languages as $lang => $info ) {
+		if ( ! $model->get_language( $lang ) ) {
+			$model->add_language(
+				array(
+					'name'       => $info['name'],
+					'slug'       => $lang,
+					'locale'     => $info['locale'],
+					'rtl'        => $info['rtl'],
+					'term_group' => $order,
+					'flag'       => $info['flag'],
+				)
+			);
+		}
+		++$order;
 	}
-	if ( ! $model->get_language( 'en' ) ) {
-		$model->add_language( array( 'name' => 'English', 'slug' => 'en', 'locale' => 'en_GB', 'rtl' => 0, 'term_group' => 1, 'flag' => 'gb' ) );
-	}
+
 	// Polylang keeps its own options object; writing the WP option directly gets overwritten.
 	$options                  = PLL()->options;
 	$options['default_lang']  = 'nl';
 	$options['hide_default']  = true;
 	$options['force_lang']    = 1;
 	$options['rewrite']       = true;
-	$options['redirect_lang'] = true; // English front page at /en/ instead of /en/<page-name>/.
+	$options['redirect_lang'] = true; // Front pages at /en/, /fr/, /ar/ instead of /en/<page-name>/.
 	$options->save();
 
-	foreach ( array( 'home', 'manifest', 'roadmap' ) as $name ) {
-		pll_set_post_language( $ids[ "$name-nl" ], 'nl' );
-		pll_set_post_language( $ids[ "$name-en" ], 'en' );
-		pll_save_post_translations( array( 'nl' => $ids[ "$name-nl" ], 'en' => $ids[ "$name-en" ] ) );
+	foreach ( $ids as $lang => $id ) {
+		pll_set_post_language( $id, $lang );
 	}
+	pll_save_post_translations( $ids );
 
 	// One header menu per language.
 	$menus = array();
-	foreach ( array( 'nl' => array( 'manifest', 'roadmap' ), 'en' => array( 'manifest', 'roadmap' ) ) as $lang => $names ) {
+	foreach ( $menu_items as $lang => $items ) {
 		$label = "Hoofdmenu $lang";
 		$obj   = wp_get_nav_menu_object( $label );
 		if ( $obj ) {
 			wp_delete_nav_menu( $obj->term_id );
 		}
 		$menus[ $lang ] = wp_create_nav_menu( $label );
-		foreach ( $names as $name ) {
-			wp_update_nav_menu_item( $menus[ $lang ], 0, array( 'menu-item-object-id' => $ids[ "$name-$lang" ], 'menu-item-object' => 'page', 'menu-item-type' => 'post_type', 'menu-item-status' => 'publish' ) );
+		foreach ( $items as $url => $title ) {
+			wp_update_nav_menu_item(
+				$menus[ $lang ],
+				0,
+				array(
+					'menu-item-title'  => $title,
+					'menu-item-url'    => $url,
+					'menu-item-type'   => 'custom',
+					'menu-item-status' => 'publish',
+				)
+			);
 		}
 	}
-	$nav_menus = $options['nav_menus'];
+	$nav_menus                                   = $options['nav_menus'];
 	$nav_menus[ get_stylesheet() ]['ub-primary'] = $menus;
-	$options['nav_menus'] = $nav_menus;
+	$options['nav_menus']                        = $nav_menus;
 	$options->save();
-	PLL()->model->clean_languages_cache();
 	set_theme_mod( 'nav_menu_locations', array( 'ub-primary' => $menus['nl'] ) );
+	$model->clean_languages_cache();
 	flush_rewrite_rules();
-}
-
-// Remove WordPress demo content so it does not end up in the static export.
-$sample = get_page_by_path( 'sample-page' );
-if ( $sample ) {
-	wp_delete_post( $sample->ID, true );
-}
-$hello = get_page_by_path( 'hello-world', OBJECT, 'post' );
-if ( $hello ) {
-	wp_delete_post( $hello->ID, true );
 }
 
 // Simply Static: export pages + the assets they use to wordpress/local/export with relative URLs.

@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="nl" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title data-i18n="metaTitle"></title>
+	<meta name="description" data-i18n-attr="content:metaDesc">
+	<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600&display=swap">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<a class="skip-link" href="#content" data-i18n="skip"></a>
+
+	<header class="header">
+		<div class="header__inner">
+			<a class="brand" href="#top" aria-label="Ummah Builders">
+				<span class="brand__mark" aria-hidden="true">م</span>
+				<span class="brand__name">Ummah<span>Builders</span></span>
+			</a>
+
+			<nav id="nav" class="nav" data-i18n-attr="aria-label:menu">
+				<a href="#visie" data-i18n="nav.0"></a>
+				<a href="#manifest" data-i18n="nav.1"></a>
+				<a href="#roadmap" data-i18n="nav.2"></a>
+			</nav>
+
+			<div class="header__actions">
+				<div class="lang" role="group" data-i18n-attr="aria-label:langLabel">
+					<button type="button" data-lang="nl" lang="nl">NL</button>
+					<button type="button" data-lang="en" lang="en">EN</button>
+					<button type="button" data-lang="fr" lang="fr">FR</button>
+					<button type="button" data-lang="ar" lang="ar">عربي</button>
+				</div>
+				<button class="menu-toggle" type="button" aria-controls="nav" aria-expanded="false" data-i18n-attr="aria-label:menu">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main id="content">
+		<!-- Opening quote: the first thing visitors see -->
+		<section id="top" class="opening">
+			<div class="container container--narrow">
+				<blockquote class="opening__quote">
+					<p data-i18n="opening"></p>
+					<footer data-i18n="opening_source"></footer>
+				</blockquote>
+			</div>
+		</section>
+
+		<!-- Hero -->
+		<section class="section hero">
+			<div class="container split">
+				<div class="split__text">
+					<h1 class="hero__title" data-i18n="hero"></h1>
+					<p class="lead" data-i18n="hero_text"></p>
+					<div class="buttons">
+						<a class="btn btn--primary" href="#visie" data-i18n="hero_btn"></a>
+						<a class="btn btn--ghost" href="#manifest" data-i18n="hero_btn2"></a>
+					</div>
+				</div>
+				<figure class="photo"><img src="assets/img/arches.jpg" width="1200" height="1600" data-i18n-attr="alt:hero_alt"></figure>
+			</div>
+		</section>
+
+		<!-- Stats -->
+		<section class="stats bg-sand">
+			<div class="container stats__grid">
+				<div class="stat"><span class="stat__number" data-i18n="stats.0.0"></span><span class="stat__label" data-i18n="stats.0.1"></span></div>
+				<div class="stat"><span class="stat__number" data-i18n="stats.1.0"></span><span class="stat__label" data-i18n="stats.1.1"></span></div>
+				<div class="stat"><span class="stat__number" data-i18n="stats.2.0"></span><span class="stat__label" data-i18n="stats.2.1"></span></div>
+			</div>
+		</section>
+
+		<!-- Why -->
+		<section id="visie" class="section">
+			<div class="container split split--reverse">
+				<figure class="photo"><img src="assets/img/sprout.jpg" width="1600" height="1067" loading="lazy" data-i18n-attr="alt:why_alt"></figure>
+				<div class="split__text">
+					<p class="eyebrow" data-i18n="why_eyebrow"></p>
+					<h2 class="title" data-i18n="why_title"></h2>
+					<p class="lead" data-i18n="why_text"></p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Pillars -->
+		<section class="section bg-sand">
+			<div class="container">
+				<header class="section-head">
+					<p class="eyebrow" data-i18n="pillars_eyebrow"></p>
+					<h2 class="title" data-i18n="pillars_title"></h2>
+				</header>
+				<div class="cards">
+					<article class="card">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 6.5C10.3 5.3 8 4.5 4 4.5v13c4 0 6.3.8 8 2 1.7-1.2 4-2 8-2v-13c-4 0-6.3.8-8 2zm0 0v13"/></svg></span>
+						<h3 data-i18n="pillars.0.0"></h3><p data-i18n="pillars.0.1"></p>
+					</article>
+					<article class="card">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></span>
+						<h3 data-i18n="pillars.1.0"></h3><p data-i18n="pillars.1.1"></p>
+					</article>
+					<article class="card">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 11l3-3 4 4 3-3M4 20h16M6 16v4m6-6v6m6-8v8"/></svg></span>
+						<h3 data-i18n="pillars.2.0"></h3><p data-i18n="pillars.2.1"></p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Ladder -->
+		<section class="section">
+			<div class="container">
+				<header class="section-head">
+					<p class="eyebrow" data-i18n="ladder_eyebrow"></p>
+					<h2 class="title" data-i18n="ladder_title"></h2>
+				</header>
+				<ol class="steps">
+					<li><span class="step__number" data-i18n="ladder.0.0"></span><h3 data-i18n="ladder.0.1"></h3><p data-i18n="ladder.0.2"></p></li>
+					<li><span class="step__number" data-i18n="ladder.1.0"></span><h3 data-i18n="ladder.1.1"></h3><p data-i18n="ladder.1.2"></p></li>
+					<li><span class="step__number" data-i18n="ladder.2.0"></span><h3 data-i18n="ladder.2.1"></h3><p data-i18n="ladder.2.2"></p></li>
+					<li><span class="step__number" data-i18n="ladder.3.0"></span><h3 data-i18n="ladder.3.1"></h3><p data-i18n="ladder.3.2"></p></li>
+				</ol>
+			</div>
+		</section>
+
+		<!-- Quote on photo -->
+		<section class="section on-photo" style="--bg: url('assets/img/dunes.jpg')">
+			<div class="container container--narrow center">
+				<p class="eyebrow" data-i18n="quote_eyebrow"></p>
+				<p class="quote" data-i18n="quote"></p>
+				<p class="lead" data-i18n="quote_text"></p>
+			</div>
+		</section>
+
+		<!-- Manifesto -->
+		<section id="manifest" class="section bg-sand">
+			<div class="container split split--top">
+				<div class="split__text">
+					<p class="eyebrow" data-i18n="manifest_eyebrow"></p>
+					<h2 class="title" data-i18n="manifest_title"></h2>
+					<p class="lead" data-i18n="manifest_intro"></p>
+					<ol class="manifest">
+						<li><h3 data-i18n="manifest.0.0"></h3><p data-i18n="manifest.0.1"></p></li>
+						<li><h3 data-i18n="manifest.1.0"></h3><p data-i18n="manifest.1.1"></p></li>
+						<li><h3 data-i18n="manifest.2.0"></h3><p data-i18n="manifest.2.1"></p></li>
+						<li><h3 data-i18n="manifest.3.0"></h3><p data-i18n="manifest.3.1"></p></li>
+					</ol>
+				</div>
+				<figure class="photo photo--sticky"><img src="assets/img/light.jpg" width="1068" height="1600" loading="lazy" data-i18n-attr="alt:manifest_alt"></figure>
+			</div>
+		</section>
+
+		<!-- Principles -->
+		<section class="section bg-night">
+			<div class="container">
+				<header class="section-head">
+					<p class="eyebrow" data-i18n="principles_eyebrow"></p>
+					<h2 class="title" data-i18n="principles_title"></h2>
+				</header>
+				<div class="cards">
+					<article class="card card--dark">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></span>
+						<h3 data-i18n="principles.0.0"></h3><p data-i18n="principles.0.1"></p>
+					</article>
+					<article class="card card--dark">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v10H9l-5 4V5zM3 3l18 18"/></svg></span>
+						<h3 data-i18n="principles.1.0"></h3><p data-i18n="principles.1.1"></p>
+					</article>
+					<article class="card card--dark">
+						<span class="card__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6l8-3zm-3 9l2 2 4-4"/></svg></span>
+						<h3 data-i18n="principles.2.0"></h3><p data-i18n="principles.2.1"></p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Roadmap: coming soon -->
+		<section id="roadmap" class="section">
+			<div class="container split">
+				<div class="split__text">
+					<span class="badge" data-i18n="roadmap_badge"></span>
+					<p class="eyebrow" data-i18n="roadmap_eyebrow"></p>
+					<h2 class="title" data-i18n="roadmap_title"></h2>
+					<p class="lead" data-i18n="roadmap_text"></p>
+				</div>
+				<figure class="photo"><img src="assets/img/library.jpg" width="1067" height="1600" loading="lazy" data-i18n-attr="alt:roadmap_alt"></figure>
+			</div>
+		</section>
+
+		<!-- Closing -->
+		<section class="closing-wrap">
+			<div class="closing split">
+				<figure class="photo photo--square"><img src="assets/img/workspace.jpg" width="1200" height="1600" loading="lazy" data-i18n-attr="alt:ladder_alt"></figure>
+				<div class="split__text">
+					<h2 class="title" data-i18n="closing"></h2>
+					<p class="lead" data-i18n="closing_text"></p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer__inner">
+			<a class="brand" href="#top">
+				<span class="brand__mark" aria-hidden="true">م</span>
+				<span class="brand__name">Ummah<span>Builders</span></span>
+			</a>
+			<p>&copy; <span id="year"></span> Ummah Builders</p>
+		</div>
+	</footer>
+
+	<script src="translations.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -25,7 +25,7 @@ function ub_asset_version( $relative_path ) {
 function ub_enqueue_assets() {
 	wp_enqueue_style(
 		'ub-fonts',
-		'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap',
+		'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Sans+Arabic:wght@400;500;600&display=swap',
 		array(),
 		null
 	);
@@ -100,14 +100,13 @@ function ub_app_url() {
 }
 
 /**
- * Translate a short UI string for the current language.
- * Uses Polylang's string translations when available, otherwise the Dutch default.
+ * Pick the UI string for the current Polylang language (falls back to Dutch).
+ *
+ * @param array $strings Map of language slug => string, e.g. array( 'nl' => 'Menu', 'en' => 'Menu' ).
  */
-function ub_t( $nl, $en ) {
-	if ( function_exists( 'pll_current_language' ) && 'en' === pll_current_language() ) {
-		return $en;
-	}
-	return $nl;
+function ub_t( $strings ) {
+	$lang = function_exists( 'pll_current_language' ) ? pll_current_language() : 'nl';
+	return isset( $strings[ $lang ] ) ? $strings[ $lang ] : $strings['nl'];
 }
 
 /**
@@ -117,7 +116,7 @@ function ub_language_switcher() {
 	if ( ! function_exists( 'pll_the_languages' ) ) {
 		return;
 	}
-	echo '<nav class="ub-lang" aria-label="' . esc_attr( ub_t( 'Taal', 'Language' ) ) . '"><ul>';
+	echo '<nav class="ub-lang" aria-label="' . esc_attr( ub_t( array( 'nl' => 'Taal', 'en' => 'Language', 'fr' => 'Langue', 'ar' => 'اللغة' ) ) ) . '"><ul>';
 	pll_the_languages(
 		array(
 			'display_names_as' => 'slug',

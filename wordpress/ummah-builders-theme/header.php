@@ -18,7 +18,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<a class="ub-skip-link" href="#ub-content"><?php echo esc_html( ub_t( 'Naar de inhoud', 'Skip to content' ) ); ?></a>
+<a class="ub-skip-link" href="#ub-content"><?php echo esc_html( ub_t( array( 'nl' => 'Naar de inhoud', 'en' => 'Skip to content', 'fr' => 'Aller au contenu', 'ar' => 'انتقل إلى المحتوى' ) ) ); ?></a>
 
 <header class="ub-header">
 	<div class="ub-header__inner">
@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<span class="ub-brand__name">Ummah<span>Builders</span></span>
 		</a>
 
-		<nav id="ub-nav" class="ub-nav" aria-label="<?php echo esc_attr( ub_t( 'Hoofdmenu', 'Main menu' ) ); ?>">
+		<nav id="ub-nav" class="ub-nav" aria-label="<?php echo esc_attr( ub_t( array( 'nl' => 'Hoofdmenu', 'en' => 'Main menu', 'fr' => 'Menu principal', 'ar' => 'القائمة الرئيسية' ) ) ); ?>">
 			<?php
 			wp_nav_menu(
 				array(
@@ -38,14 +38,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 				)
 			);
 			?>
-			<a class="ub-nav__login" href="#ub-login"><?php echo esc_html( ub_t( 'Inloggen', 'Log in' ) ); ?></a>
 		</nav>
 
 		<div class="ub-header__actions">
 			<?php ub_language_switcher(); ?>
-			<a class="ub-btn ub-btn--ghost ub-btn--sm" href="#ub-login"><?php echo esc_html( ub_t( 'Inloggen', 'Log in' ) ); ?></a>
-			<a class="ub-btn ub-btn--primary ub-btn--sm" href="#ub-join"><?php echo esc_html( ub_t( 'Word lid', 'Join' ) ); ?></a>
-			<button class="ub-menu-toggle" type="button" aria-controls="ub-nav" aria-expanded="false" aria-label="<?php echo esc_attr( ub_t( 'Menu openen', 'Open menu' ) ); ?>">
+			<button class="ub-menu-toggle" type="button" aria-controls="ub-nav" aria-expanded="false" aria-label="<?php echo esc_attr( ub_t( array( 'nl' => 'Menu openen', 'en' => 'Open menu', 'fr' => 'Ouvrir le menu', 'ar' => 'فتح القائمة' ) ) ); ?>">
 				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
 			</button>
 		</div>
